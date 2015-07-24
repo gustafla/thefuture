@@ -20,18 +20,15 @@ This file is part of Low Quality is the Future.
 #include "util.hpp"
 #include <string>
 
-GfxPostProcessor::GfxPostProcessor(CommonData* icommon, std::string fs, uint32_t filter, float c, uint32_t wrap, float cy):
+GfxPostProcessor::GfxPostProcessor(CommonData* icommon, std::string fs, uint32_t filter, float c, uint32_t wrap):
 common(icommon),
 texCount(0),
 shaderProgram("shaders/simple.vert", fs) {
     glUseProgram(shaderProgram.getHandle());
     
-    if (cy==0.0)
-		cy = c;
-    
     GLfloat res[2] = {
         common->res[0]/c,
-        common->res[1]/cy
+        common->res[1]/c
     };
 
     glGenFramebuffers(1, &frameBuffer);

@@ -20,22 +20,6 @@ This file is part of Low Quality is the Future.
 #include <cstdlib>
 
 float const PART_TIMES[] = {
-    30.9f, //Intro
-    0.5f,  //Intro fade
-    30.9f, //Starfield
-    0.5f,  //
-    0.5f,
-    30.0f, //Flag & points
-    0.4f,
-    0.4f,
-    15.4f, //cubes
-    //4000000.7f,
-    //30.0f,
-    //30.0f,
-    //30.0f,
-    //30.0f,
-    30.0f, //Tunnel & twister
-    25.0f, //"Amiga"
-    2.0f //Fade out
+    20.0f
 };
 int const PARTS = sizeof(PART_TIMES)/sizeof(PART_TIMES[0]);

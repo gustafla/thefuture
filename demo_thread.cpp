@@ -33,18 +33,7 @@ This file is part of Low Quality is the Future.
 #include "fade.hpp"
 #include "demo_timing.hpp"
 
-#include "parts/starfield.hpp"
-#include "parts/intro.hpp"
-#include "parts/flag.hpp"
-#include "parts/plasma_bars.hpp"
-#include "parts/cube.hpp"
-#include "parts/feedback_effect.hpp"
-#include "parts/texobj.hpp"
-#include "parts/texobj_ed.hpp"
-#include "parts/vertices.hpp"
-#include "parts/tunnel1.hpp"
-#include "parts/amiga.hpp"
-
+#include "parts/logo.hpp"
 /*
  * Demo player thread function
  */
@@ -66,11 +55,11 @@ void* playDemo(void* arg) {
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-    //Enable depth testing (why isn't this on by default?)
+    //Enable depth testing
     glEnable(GL_DEPTH_TEST);
     glDepthFunc(GL_LESS);
 
-    //glEnable(GL_CULL_FACE); //We don't need this
+    //glEnable(GL_CULL_FACE); //don't need this
 
     //Set a viewport
     glViewport(0, 0, c.w, c.h);
@@ -92,29 +81,11 @@ void* playDemo(void* arg) {
     delete loading;
     window.swapBuffers();
     
-    GfxTexture2D     rgbfiltert("graphics/rgbfilter.tga");
-    GfxPostProcessor crt(&common, "shaders/crt.frag", GL_NEAREST);
-    GfxPostProcessor blur(&common, "shaders/fastblur.frag", GL_LINEAR, 4.0);
-    blur.takeTexture(crt.getTexture(), "frameIn");
-    crt.takeTexture(blur.getTexture(), "blurFrame");
-    //crt.takeTexture(&crtTex, "rgbfilter");
-    //GfxPostProcessor scaler(&common, "shaders/2x.frag", GL_NEAREST, 0.5);
+    GfxPostProcessor pp(&common, "shaders/coolpp.frag");
     bool doPP = false;
 
-    //demo parts :D
-    PIntro          partIntro(&common);
-    PStarfield      partStarfield(&common);
-	PFlag           partFlag(&common);
-    /*EPointModel     partPointCube(&common, "cube.obj", 0.7);
-    EPointModel     partPointIcos(&common, "icos.obj");
-    EPointModel     partPointTorus(&common, "htorus_sd.obj");*/
-    PVertices       partCubes(&common);
-    //PCube           partT1(&common);
-    //PFeedbackEffect partT2(&common);
-    //PTexobj         partT3(&common);
-    //PTexobjED       partED(&common);
-    PTunnel1        partTunnel1(&common);
-    PAmiga          partAmiga(&common);
+    //demo parts
+    PLogo p0(&common);
     Fade*      fade;
     
     //Start the music player thread
@@ -162,148 +133,28 @@ void* playDemo(void* arg) {
         common.beatHalfSine = std::abs(sin(t*M_PI*common.BPS)); //Wow, conflicting defs of abs()!
 
         if (doPP) {
-            crt.bindFramebuffer(); //drawing to the "root" PP
-            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        }
+            pp.bindFramebuffer();
+        } else
+            gfxBindFB0();
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         switch (part) { //Demo in a switch :)
 			case 0: //INTRO
-                doPP = false;
-				partIntro.draw();
-				if (t-tLoopStart > tPartStart+PART_TIMES[part]){ //30.0
+                doPP = true;
+				p0.draw();
+				/*if (t-tLoopStart > tPartStart+PART_TIMES[part]){ //30.0
                     fade = new Fade(&common, PART_TIMES[part+1], FADE_BLACK_OUT_GLITCHED);
                     partIntro.draw(fade); //Hackish... But works :/
 					part++;
 					tPartStart = t-tLoopStart;
                     doPP = false;
                     gfxBindFB0();
-				}
+				}*/
 				break;
-            case 1: //GLITCHY INTRO FADE
-                doPP = false;
-				fade->draw();
-				if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    delete fade;
-					part++;
-					tPartStart = t-tLoopStart;
-                    
-				}
-				break;
-			case 2: //STARFIELD WITH SCROLLER
-                doPP = true;
-				partStarfield.draw();
-				if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    fade = new Fade(&common, PART_TIMES[part+1]);
-                    fade->bindFramebuffer();
-                    partStarfield.draw();
-					part++;
-					tPartStart = t-tLoopStart;
-                    partStarfield.resetTimer();
-				}
-				break;
-            case 3: //STARFIELD TO FLAG FADE
-                doPP = true;
-                fade->draw();
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    delete fade;
-                    fade = new Fade(&common, PART_TIMES[part+1], FADE_BLACK_IN);
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
-            case 4: //FADE TO FLAG IN
-                doPP = true;
-                fade->bindFramebuffer();
-                glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-                partFlag.draw();
-                crt.bindFramebuffer();
-                fade->draw();
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    delete fade;
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
-            case 5: //FLAG
-                doPP = true;
-                partFlag.draw();
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    fade = new Fade(&common, PART_TIMES[part+1], FADE_WHITE_OUT); //IMPORTANT
-                    fade->bindFramebuffer();
-                    partFlag.draw();
-                    partFlag.resetTimer();
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
-            case 6: //POINTS FADE OUT TO WHITE
-                doPP = true;
-                fade->draw();
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    delete fade;                    
-                    fade = new Fade(&common, PART_TIMES[part+1], FADE_WHITE_IN);
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
-            case 7: //CUBES FADE IN FROM WHITE
-                doPP = true;
-                fade->bindFramebuffer();
-                glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-                partCubes.draw();
-                crt.bindFramebuffer();
-                fade->draw();
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    delete fade;
-                    //fade = new Fade(&common, PART_TIMES[part+1], FADE_WITE_IN);
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
-            case 8: //CUBES
-                doPP = true;
-                partCubes.draw();
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    partCubes.resetTimer();
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
-            case 9: //TUNNEL WITH TWISTER
-                doPP = true;
-                partTunnel1.draw(/*&crt*/);
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    partTunnel1.resetTimer();
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
-            case 10: //"AMIGA" (maybe :DD)
-                doPP = true;
-                partAmiga.draw(/*&crt*/);
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    fade = new Fade(&common, PART_TIMES[part+1], FADE_BLACK_OUT_GLITCHED);
-                    fade->bindFramebuffer();
-                    partAmiga.draw(); //Hackish... But works :/
-                    partAmiga.resetTimer();
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
-            case 11: //FADE OUT
-                doPP = true;
-                fade->draw();
-                if (t-tLoopStart > tPartStart+PART_TIMES[part]){
-                    delete fade;                    
-                    //fade = new Fade(&common, PART_TIMES[part+1], FADE_WHITE_IN);
-					part++;
-					tPartStart = t-tLoopStart;
-				}
-                break;
 			default:
                 if (c.audio)
                     exit(0);
-				part = 2; //0?
+				part = 0; //0?
 				tLoopStart = t;
                 for (unsigned int partTi = 0; partTi < 2; partTi++) {
                     tLoopStart -= PART_TIMES[partTi]; //Adjust correct part timing. Hacky, but not needed often
@@ -312,20 +163,14 @@ void* playDemo(void* arg) {
                 doPP = true; //false?
 				break;
 		}
+
         if (doPP) {
-            blur.bindFramebuffer();
-            blur.draw(); //Blur doesn't draw to screen, instead to it's own texture that goes to crt as blurFrame
-            glClear(GL_DEPTH_BUFFER_BIT);
-            //scaler.bindFramebuffer();
-            //crt.draw();
-            //glClear(GL_DEPTH_BUFFER_BIT);
-            gfxBindFB0(); //Now we'll be drawing to screen
-            //scaler.draw();
-            crt.draw();
+            gfxBindFB0();
+            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+            pp.draw();
         }
-        //What was just drawn will now get read by the screen driver
+
         window.swapBuffers();
-        //For clarity, it's good to clear both frame- and renderbuffer... or maybe not... I'll check this later
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         if (c.audio) {
