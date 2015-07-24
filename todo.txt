@@ -1,0 +1,27 @@
+TTTTT   OOO   DDDD    OOO          TTTTT  X  XX  TTTTT
+  T    O   O  D   D  O   O           T     XX      T  
+  T    O   O  D   D  O   O   ..      T      XX     T  
+  T     OOO   DDDD    OOO    ..      T    XX  X    T  
+------------------------------------------------------
+
+- "long" stars
+- Cool text thigy with quads (like razor's insert no coins lol)
+- Fix lighting
+- Accommodate for different size audio h/w buffers (timing)
+- Sync'd noise blur?
+- Edit help
+- Resolution + crt rgb + pp interpolation
+- Reorder GfxPostprocessor parameters
+
+DONE:
+
+- Part with 3D model made of points
+- MVP
+- Correct matrix calculations!
+- p2 scroller timing fix
+- Fix GfxScreen texture memleak
+- Movable gfx_screens!??
+- Change other timing and make a loading screen
+- A simple resource loader/handler object (Only VBO, actually...)
+- TGA file support into gfxTexture2D!
+- Screen and pp shader tex ufm names 

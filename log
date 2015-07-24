@@ -1,0 +1,1555 @@
+Loader: screen.obj: Unrecognized: 
+Loader: screen.obj: Unrecognized: o screen
+Loader: screen.obj: Unrecognized: 
+Loader: screen.obj: Vertex: -1 -1 0
+Loader: screen.obj: Vertex: -1 1 0
+Loader: screen.obj: Vertex: 1 1 0
+Loader: screen.obj: Vertex: 1 -1 0
+Loader: screen.obj: Unrecognized: 
+Loader: screen.obj: Texture coord: 0 0 0
+Loader: screen.obj: Texture coord: 0 1 0
+Loader: screen.obj: Texture coord: 1 1 0
+Loader: screen.obj: Texture coord: 1 0 0
+Loader: screen.obj: Unrecognized: 
+Loader: screen.obj: Triangle indices and texture coord indices: 1 3 2 / 1 3 2
+Loader: screen.obj: Triangle indices and texture coord indices: 4 3 1 / 4 3 1
+Loader: screen.obj: Unrecognized: 
+Loader: cube.obj: Unrecognized: o Cube_Cube.001
+Loader: cube.obj: Vertex: -1 -1 1
+Loader: cube.obj: Vertex: -1 -1 -1
+Loader: cube.obj: Vertex: 1 -1 -1
+Loader: cube.obj: Vertex: 1 -1 1
+Loader: cube.obj: Vertex: -1 1 1
+Loader: cube.obj: Vertex: -1 1 -1
+Loader: cube.obj: Vertex: 1 1 -1
+Loader: cube.obj: Vertex: 1 1 1
+Loader: cube.obj: Unrecognized: s off
+Loader: cube.obj: Triangle indices: 6 2 1
+Loader: cube.obj: Triangle indices: 7 3 2
+Loader: cube.obj: Triangle indices: 8 4 3
+Loader: cube.obj: Triangle indices: 5 1 4
+Loader: cube.obj: Triangle indices: 2 3 4
+Loader: cube.obj: Triangle indices: 7 6 5
+Loader: cube.obj: Triangle indices: 5 6 1
+Loader: cube.obj: Triangle indices: 6 7 2
+Loader: cube.obj: Triangle indices: 7 8 3
+Loader: cube.obj: Triangle indices: 8 5 4
+Loader: cube.obj: Triangle indices: 1 2 4
+Loader: cube.obj: Triangle indices: 8 7 5
+Loader: cube.obj: Unrecognized: 
+Loader: icos.obj: Unrecognized: o Icosphere
+Loader: icos.obj: Vertex: 0 -1 0
+Loader: icos.obj: Vertex: 0.7236 -0.447215 0.52572
+Loader: icos.obj: Vertex: -0.276385 -0.447215 0.85064
+Loader: icos.obj: Vertex: -0.894425 -0.447215 0
+Loader: icos.obj: Vertex: -0.276385 -0.447215 -0.85064
+Loader: icos.obj: Vertex: 0.7236 -0.447215 -0.52572
+Loader: icos.obj: Vertex: 0.276385 0.447215 0.85064
+Loader: icos.obj: Vertex: -0.7236 0.447215 0.52572
+Loader: icos.obj: Vertex: -0.7236 0.447215 -0.52572
+Loader: icos.obj: Vertex: 0.276385 0.447215 -0.85064
+Loader: icos.obj: Vertex: 0.894425 0.447215 0
+Loader: icos.obj: Vertex: 0 1 0
+Loader: icos.obj: Unrecognized: s off
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Triangle indices: 1 2 3
+Loader: icos.obj: Triangle indices: 1 3 4
+Loader: icos.obj: Triangle indices: 1 4 5
+Loader: icos.obj: Triangle indices: 1 5 6
+Loader: icos.obj: Triangle indices: 2 1 6
+Loader: icos.obj: Triangle indices: 3 7 8
+Loader: icos.obj: Triangle indices: 3 2 7
+Loader: icos.obj: Triangle indices: 4 3 8
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Triangle indices: 4 8 9
+Loader: icos.obj: Triangle indices: 5 4 9
+Loader: icos.obj: Triangle indices: 5 9 10
+Loader: icos.obj: Triangle indices: 6 10 11
+Loader: icos.obj: Triangle indices: 6 5 10
+Loader: icos.obj: Triangle indices: 7 11 12
+Loader: icos.obj: Triangle indices: 8 7 12
+Loader: icos.obj: Triangle indices: 9 8 12
+Loader: icos.obj: Triangle indices: 10 9 12
+Loader: icos.obj: Triangle indices: 11 10 12
+Loader: icos.obj: Triangle indices: 2 11 7
+Loader: icos.obj: Triangle indices: 2 6 11
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Unrecognized: 
+Loader: htorus.obj: Unrecognized: o Torus
+Loader: htorus.obj: Vertex: 1.25 0 0
+Loader: htorus.obj: Vertex: 1.125 0.216506 0
+Loader: htorus.obj: Vertex: 0.875 0.216506 0
+Loader: htorus.obj: Vertex: 0.75 0 0
+Loader: htorus.obj: Vertex: 0.875 -0.216506 0
+Loader: htorus.obj: Vertex: 1.125 -0.216506 0
+Loader: htorus.obj: Vertex: 0.625 0 -1.08253
+Loader: htorus.obj: Vertex: 0.5625 0.216506 -0.974279
+Loader: htorus.obj: Vertex: 0.4375 0.216506 -0.757772
+Loader: htorus.obj: Vertex: 0.375 0 -0.649519
+Loader: htorus.obj: Vertex: 0.4375 -0.216506 -0.757772
+Loader: htorus.obj: Vertex: 0.5625 -0.216506 -0.974279
+Loader: htorus.obj: Vertex: -0.625 0 -1.08253
+Loader: htorus.obj: Vertex: -0.5625 0.216506 -0.974279
+Loader: htorus.obj: Vertex: -0.4375 0.216506 -0.757772
+Loader: htorus.obj: Vertex: -0.375 0 -0.649519
+Loader: htorus.obj: Vertex: -0.4375 -0.216506 -0.757772
+Loader: htorus.obj: Vertex: -0.5625 -0.216506 -0.974279
+Loader: htorus.obj: Vertex: -1.25 0 -0
+Loader: htorus.obj: Vertex: -1.125 0.216506 -0
+Loader: htorus.obj: Vertex: -0.875 0.216506 -0
+Loader: htorus.obj: Vertex: -0.75 0 -0
+Loader: htorus.obj: Vertex: -0.875 -0.216506 -0
+Loader: htorus.obj: Vertex: -1.125 -0.216506 -0
+Loader: htorus.obj: Vertex: -0.625 0 1.08253
+Loader: htorus.obj: Vertex: -0.5625 0.216506 0.974279
+Loader: htorus.obj: Vertex: -0.4375 0.216506 0.757772
+Loader: htorus.obj: Vertex: -0.375 0 0.649519
+Loader: htorus.obj: Vertex: -0.4375 -0.216506 0.757772
+Loader: htorus.obj: Vertex: -0.5625 -0.216506 0.974279
+Loader: htorus.obj: Vertex: 0.625 0 1.08253
+Loader: htorus.obj: Vertex: 0.5625 0.216506 0.974279
+Loader: htorus.obj: Vertex: 0.4375 0.216506 0.757772
+Loader: htorus.obj: Vertex: 0.375 0 0.649519
+Loader: htorus.obj: Vertex: 0.4375 -0.216506 0.757772
+Loader: htorus.obj: Vertex: 0.5625 -0.216506 0.974279
+Loader: htorus.obj: Unrecognized: s off
+Loader: htorus.obj: Triangle indices: 1 7 8
+Loader: htorus.obj: Triangle indices: 8 9 3
+Loader: htorus.obj: Triangle indices: 9 10 4
+Loader: htorus.obj: Triangle indices: 10 11 5
+Loader: htorus.obj: Triangle indices: 5 11 12
+Loader: htorus.obj: Triangle indices: 6 12 7
+Loader: htorus.obj: Triangle indices: 7 13 14
+Loader: htorus.obj: Triangle indices: 14 15 9
+Loader: htorus.obj: Triangle indices: 15 16 10
+Loader: htorus.obj: Triangle indices: 16 17 11
+Loader: htorus.obj: Triangle indices: 11 17 18
+Loader: htorus.obj: Triangle indices: 18 13 7
+Loader: htorus.obj: Triangle indices: 13 19 20
+Loader: htorus.obj: Triangle indices: 14 20 21
+Loader: htorus.obj: Triangle indices: 21 22 16
+Loader: htorus.obj: Triangle indices: 22 23 17
+Loader: htorus.obj: Triangle indices: 23 24 18
+Loader: htorus.obj: Triangle indices: 24 19 13
+Loader: htorus.obj: Triangle indices: 25 26 20
+Loader: htorus.obj: Triangle indices: 26 27 21
+Loader: htorus.obj: Triangle indices: 21 27 28
+Loader: htorus.obj: Triangle indices: 28 29 23
+Loader: htorus.obj: Triangle indices: 29 30 24
+Loader: htorus.obj: Triangle indices: 30 25 19
+Loader: htorus.obj: Triangle indices: 31 32 26
+Loader: htorus.obj: Triangle indices: 26 32 33
+Loader: htorus.obj: Triangle indices: 33 34 28
+Loader: htorus.obj: Triangle indices: 34 35 29
+Loader: htorus.obj: Triangle indices: 35 36 30
+Loader: htorus.obj: Triangle indices: 36 31 25
+Loader: htorus.obj: Triangle indices: 31 1 2
+Loader: htorus.obj: Triangle indices: 2 3 33
+Loader: htorus.obj: Triangle indices: 33 3 4
+Loader: htorus.obj: Triangle indices: 4 5 35
+Loader: htorus.obj: Triangle indices: 5 6 36
+Loader: htorus.obj: Triangle indices: 6 1 31
+Loader: htorus.obj: Triangle indices: 2 1 8
+Loader: htorus.obj: Triangle indices: 2 8 3
+Loader: htorus.obj: Triangle indices: 3 9 4
+Loader: htorus.obj: Triangle indices: 4 10 5
+Loader: htorus.obj: Triangle indices: 6 5 12
+Loader: htorus.obj: Triangle indices: 1 6 7
+Loader: htorus.obj: Triangle indices: 8 7 14
+Loader: htorus.obj: Triangle indices: 8 14 9
+Loader: htorus.obj: Triangle indices: 9 15 10
+Loader: htorus.obj: Triangle indices: 10 16 11
+Loader: htorus.obj: Triangle indices: 12 11 18
+Loader: htorus.obj: Triangle indices: 12 18 7
+Loader: htorus.obj: Triangle indices: 14 13 20
+Loader: htorus.obj: Triangle indices: 15 14 21
+Loader: htorus.obj: Triangle indices: 15 21 16
+Loader: htorus.obj: Triangle indices: 16 22 17
+Loader: htorus.obj: Triangle indices: 17 23 18
+Loader: htorus.obj: Triangle indices: 18 24 13
+Loader: htorus.obj: Triangle indices: 19 25 20
+Loader: htorus.obj: Triangle indices: 20 26 21
+Loader: htorus.obj: Triangle indices: 22 21 28
+Loader: htorus.obj: Triangle indices: 22 28 23
+Loader: htorus.obj: Triangle indices: 23 29 24
+Loader: htorus.obj: Triangle indices: 24 30 19
+Loader: htorus.obj: Triangle indices: 25 31 26
+Loader: htorus.obj: Triangle indices: 27 26 33
+Loader: htorus.obj: Triangle indices: 27 33 28
+Loader: htorus.obj: Triangle indices: 28 34 29
+Loader: htorus.obj: Triangle indices: 29 35 30
+Loader: htorus.obj: Triangle indices: 30 36 25
+Loader: htorus.obj: Triangle indices: 32 31 2
+Loader: htorus.obj: Triangle indices: 32 2 33
+Loader: htorus.obj: Triangle indices: 34 33 4
+Loader: htorus.obj: Triangle indices: 34 4 35
+Loader: htorus.obj: Triangle indices: 35 5 36
+Loader: htorus.obj: Triangle indices: 36 6 31
+Loader: htorus.obj: Unrecognized: 
+Loader: cube_tex.obj: Vertex: -1 -1 -1
+Loader: cube_tex.obj: Vertex: -1 1 -1
+Loader: cube_tex.obj: Vertex: 1 1 -1
+Loader: cube_tex.obj: Vertex: 1 -1 -1
+Loader: cube_tex.obj: Vertex: -1 -1 1
+Loader: cube_tex.obj: Vertex: -1 1 1
+Loader: cube_tex.obj: Vertex: 1 1 1
+Loader: cube_tex.obj: Vertex: 1 -1 1
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Texture coord: 0 0 0
+Loader: cube_tex.obj: Texture coord: 0 1 0
+Loader: cube_tex.obj: Texture coord: 1 1 0
+Loader: cube_tex.obj: Texture coord: 1 0 0
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Normal: -1 -1 1
+Loader: cube_tex.obj: Normal: -1 1 1
+Loader: cube_tex.obj: Normal: 1 1 1
+Loader: cube_tex.obj: Normal: 1 -1 1
+Loader: cube_tex.obj: Normal: -1 -1 -1
+Loader: cube_tex.obj: Normal: -1 1 -1
+Loader: cube_tex.obj: Normal: 1 1 1
+Loader: cube_tex.obj: Normal: 1 -1 1
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 1 2 3 / 1 2 3 / 1 2 3
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 3 4 1 / 3 4 1 / 3 4 1
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 5 7 8 / 4 2 1 / 5 7 8
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 5 6 7 / 4 3 2 / 5 6 7
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 3 4 7 / 2 1 3 / 3 4 7
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 7 4 8 / 3 1 4 / 7 4 8
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 2 3 6 / 1 4 2 / 2 3 6
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 6 3 7 / 2 4 3 / 6 3 7
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 1 4 5 / 2 3 1 / 1 4 5
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 4 5 8 / 3 1 4 / 4 5 8
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 1 2 6 / 4 3 2 / 1 2 6
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 1 6 5 / 4 2 1 / 1 6 5
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex_nm.obj: Unrecognized: o cube_tex.001
+Loader: cube_tex_nm.obj: Vertex: -1 -1 -1
+Loader: cube_tex_nm.obj: Vertex: -1 1 -1
+Loader: cube_tex_nm.obj: Vertex: 1 1 -1
+Loader: cube_tex_nm.obj: Vertex: 1 -1 -1
+Loader: cube_tex_nm.obj: Vertex: -1 -1 1
+Loader: cube_tex_nm.obj: Vertex: 1 1 1
+Loader: cube_tex_nm.obj: Vertex: 1 -1 1
+Loader: cube_tex_nm.obj: Vertex: -1 1 1
+Loader: cube_tex_nm.obj: Texture coord: 0 0 0
+Loader: cube_tex_nm.obj: Texture coord: 0 1 0
+Loader: cube_tex_nm.obj: Texture coord: 1 1 0
+Loader: cube_tex_nm.obj: Texture coord: 1 0 0
+Loader: cube_tex_nm.obj: Normal: 0 0 -1
+Loader: cube_tex_nm.obj: Normal: -1 0 0
+Loader: cube_tex_nm.obj: Normal: 0 -1 -0
+Loader: cube_tex_nm.obj: Normal: 0 1 0
+Loader: cube_tex_nm.obj: Normal: 1 0 0
+Loader: cube_tex_nm.obj: Unrecognized: s off
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 1 2 3 / 1 2 3 / 1 1 1
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 4 1 3 / 4 1 3 / 1 1 1
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 5 6 7 / 4 2 1 / 1 1 1
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 5 8 6 / 4 3 2 / 1 1 1
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 3 4 6 / 2 1 3 / 2 2 2
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 6 4 7 / 3 1 4 / 2 2 2
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 2 3 8 / 1 4 2 / 3 3 3
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 8 3 6 / 2 4 3 / 3 3 3
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 1 4 5 / 2 3 1 / 3 3 3
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 4 5 7 / 3 1 4 / 4 4 4
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 1 2 8 / 4 3 2 / 5 5 5
+Loader: cube_tex_nm.obj: Triangle indices, texture coord indices and normal indices: 1 8 5 / 4 2 1 / 5 5 5
+Loader: cube_tex_nm.obj: Unrecognized: 
+Loader: doublecube.obj: Unrecognized: o Cube
+Loader: doublecube.obj: Vertex: 2 -1 -1
+Loader: doublecube.obj: Vertex: 2 -1 1
+Loader: doublecube.obj: Vertex: -2 -1 1
+Loader: doublecube.obj: Vertex: -2 -1 -1
+Loader: doublecube.obj: Vertex: 2 1 -0.999999
+Loader: doublecube.obj: Vertex: 2 1 1
+Loader: doublecube.obj: Vertex: -2 1 1
+Loader: doublecube.obj: Vertex: -2 1 -1
+Loader: doublecube.obj: Texture coord: 0.666667 1 0
+Loader: doublecube.obj: Texture coord: 0 1 0
+Loader: doublecube.obj: Texture coord: 0 0 0
+Loader: doublecube.obj: Texture coord: 0 1 0
+Loader: doublecube.obj: Texture coord: 0 0 0
+Loader: doublecube.obj: Texture coord: 0.666667 0 0
+Loader: doublecube.obj: Texture coord: 1 1 0
+Loader: doublecube.obj: Texture coord: 0.666667 1 0
+Loader: doublecube.obj: Texture coord: 0.666667 0 0
+Loader: doublecube.obj: Texture coord: 0.666667 1 0
+Loader: doublecube.obj: Texture coord: 0 1 0
+Loader: doublecube.obj: Texture coord: 0 0 0
+Loader: doublecube.obj: Texture coord: 1 0 0
+Loader: doublecube.obj: Texture coord: 0.666667 0 0
+Loader: doublecube.obj: Texture coord: 0.666667 1 0
+Loader: doublecube.obj: Texture coord: 0.666667 1 0
+Loader: doublecube.obj: Texture coord: 0 1 0
+Loader: doublecube.obj: Texture coord: 0 0 0
+Loader: doublecube.obj: Texture coord: 0.666667 0 0
+Loader: doublecube.obj: Texture coord: 0.666667 1 0
+Loader: doublecube.obj: Texture coord: 1 0 0
+Loader: doublecube.obj: Texture coord: 0.666667 0 0
+Loader: doublecube.obj: Texture coord: 1 1 0
+Loader: doublecube.obj: Texture coord: 0.666667 0 0
+Loader: doublecube.obj: Unrecognized: s off
+Loader: doublecube.obj: Triangle indices and texture coord indices: 2 3 4 / 1 2 3
+Loader: doublecube.obj: Triangle indices and texture coord indices: 8 7 6 / 4 5 6
+Loader: doublecube.obj: Triangle indices and texture coord indices: 5 6 2 / 7 8 9
+Loader: doublecube.obj: Triangle indices and texture coord indices: 6 7 3 / 10 11 12
+Loader: doublecube.obj: Triangle indices and texture coord indices: 7 8 4 / 13 14 15
+Loader: doublecube.obj: Triangle indices and texture coord indices: 1 4 8 / 16 17 18
+Loader: doublecube.obj: Triangle indices and texture coord indices: 1 2 4 / 19 1 3
+Loader: doublecube.obj: Triangle indices and texture coord indices: 5 8 6 / 20 4 6
+Loader: doublecube.obj: Triangle indices and texture coord indices: 1 5 2 / 21 7 9
+Loader: doublecube.obj: Triangle indices and texture coord indices: 2 6 3 / 22 10 12
+Loader: doublecube.obj: Triangle indices and texture coord indices: 3 7 4 / 23 13 15
+Loader: doublecube.obj: Triangle indices and texture coord indices: 5 1 8 / 24 16 18
+Loader: doublecube.obj: Unrecognized: 
+Loader: screen.obj: Unrecognized: 
+Loader: screen.obj: Unrecognized: o screen
+Loader: screen.obj: Unrecognized: 
+Loader: screen.obj: Vertex: -1 -1 0
+Loader: screen.obj: Vertex: -1 1 0
+Loader: screen.obj: Vertex: 1 1 0
+Loader: screen.obj: Vertex: 1 -1 0
+Loader: screen.obj: Unrecognized: 
+Loader: screen.obj: Texture coord: 0 0 0
+Loader: screen.obj: Texture coord: 0 1 0
+Loader: screen.obj: Texture coord: 1 1 0
+Loader: screen.obj: Texture coord: 1 0 0
+Loader: screen.obj: Unrecognized: 
+Loader: screen.obj: Triangle indices and texture coord indices: 1 3 2 / 1 3 2
+Loader: screen.obj: Triangle indices and texture coord indices: 4 3 1 / 4 3 1
+Loader: screen.obj: Unrecognized: 
+Loader: icos.obj: Unrecognized: o Icosphere
+Loader: icos.obj: Vertex: 0 -1 0
+Loader: icos.obj: Vertex: 0.7236 -0.447215 0.52572
+Loader: icos.obj: Vertex: -0.276385 -0.447215 0.85064
+Loader: icos.obj: Vertex: -0.894425 -0.447215 0
+Loader: icos.obj: Vertex: -0.276385 -0.447215 -0.85064
+Loader: icos.obj: Vertex: 0.7236 -0.447215 -0.52572
+Loader: icos.obj: Vertex: 0.276385 0.447215 0.85064
+Loader: icos.obj: Vertex: -0.7236 0.447215 0.52572
+Loader: icos.obj: Vertex: -0.7236 0.447215 -0.52572
+Loader: icos.obj: Vertex: 0.276385 0.447215 -0.85064
+Loader: icos.obj: Vertex: 0.894425 0.447215 0
+Loader: icos.obj: Vertex: 0 1 0
+Loader: icos.obj: Unrecognized: s off
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Triangle indices: 1 2 3
+Loader: icos.obj: Triangle indices: 1 3 4
+Loader: icos.obj: Triangle indices: 1 4 5
+Loader: icos.obj: Triangle indices: 1 5 6
+Loader: icos.obj: Triangle indices: 2 1 6
+Loader: icos.obj: Triangle indices: 3 7 8
+Loader: icos.obj: Triangle indices: 3 2 7
+Loader: icos.obj: Triangle indices: 4 3 8
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Triangle indices: 4 8 9
+Loader: icos.obj: Triangle indices: 5 4 9
+Loader: icos.obj: Triangle indices: 5 9 10
+Loader: icos.obj: Triangle indices: 6 10 11
+Loader: icos.obj: Triangle indices: 6 5 10
+Loader: icos.obj: Triangle indices: 7 11 12
+Loader: icos.obj: Triangle indices: 8 7 12
+Loader: icos.obj: Triangle indices: 9 8 12
+Loader: icos.obj: Triangle indices: 10 9 12
+Loader: icos.obj: Triangle indices: 11 10 12
+Loader: icos.obj: Triangle indices: 2 11 7
+Loader: icos.obj: Triangle indices: 2 6 11
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Unrecognized: 
+Loader: icos.obj: Unrecognized: 
+Loader: revision.obj: Unrecognized: o Revision_Plane
+Loader: revision.obj: Vertex: -0.31974 0.133448 -0.866324
+Loader: revision.obj: Vertex: -0.804261 0.133448 -0.481245
+Loader: revision.obj: Vertex: -0.028096 0.133448 -0.913245
+Loader: revision.obj: Vertex: -0.594708 0.133448 0.415356
+Loader: revision.obj: Vertex: -0.607907 0.133448 -0.707539
+Loader: revision.obj: Vertex: -0.907415 0.133448 0.230345
+Loader: revision.obj: Vertex: -0.657054 0.133448 -0.481179
+Loader: revision.obj: Vertex: -0.346625 0.133448 -0.728267
+Loader: revision.obj: Vertex: -0.805458 0.133448 -0.077469
+Loader: revision.obj: Vertex: 0.769932 0.133448 0.505142
+Loader: revision.obj: Vertex: -0.777163 0.133448 -0.242868
+Loader: revision.obj: Vertex: -0.518042 0.133448 -0.619575
+Loader: revision.obj: Vertex: -0.712235 0.133448 -0.065991
+Loader: revision.obj: Vertex: 0.457331 0.133448 -0.791389
+Loader: revision.obj: Vertex: 0.220019 0.133448 -0.884722
+Loader: revision.obj: Vertex: 0.492114 0.133448 -0.849279
+Loader: revision.obj: Vertex: -0.693003 0.133448 0.710358
+Loader: revision.obj: Vertex: -0.549342 0.133448 0.755936
+Loader: revision.obj: Vertex: -0.758353 0.133448 0.556763
+Loader: revision.obj: Vertex: -0.389748 0.133448 0.850286
+Loader: revision.obj: Vertex: -0.663569 0.133448 0.670017
+Loader: revision.obj: Vertex: -0.582017 0.133448 0.799307
+Loader: revision.obj: Vertex: -0.839635 0.133448 0.419209
+Loader: revision.obj: Vertex: -0.931584 0.133448 0.038946
+Loader: revision.obj: Vertex: -0.888108 0.133448 -0.295246
+Loader: revision.obj: Vertex: -0.696678 0.133448 0.184134
+Loader: revision.obj: Vertex: -0.476025 0.133448 0.670626
+Loader: revision.obj: Vertex: -0.41655 0.133448 0.588898
+Loader: revision.obj: Vertex: -0.297866 0.133448 0.765857
+Loader: revision.obj: Vertex: 0.215176 0.133448 0.681153
+Loader: revision.obj: Vertex: -0.112906 0.133448 0.705952
+Loader: revision.obj: Vertex: -0.026527 0.133448 0.929094
+Loader: revision.obj: Vertex: -0.125724 0.133448 0.806115
+Loader: revision.obj: Vertex: 0.19829 0.133448 0.907738
+Loader: revision.obj: Vertex: 0.061937 0.133448 0.713805
+Loader: revision.obj: Vertex: -0.243242 0.133448 0.901842
+Loader: revision.obj: Vertex: -0.163702 0.133448 -0.682697
+Loader: revision.obj: Vertex: -0.016883 0.133448 -0.695018
+Loader: revision.obj: Vertex: -0.305121 0.133448 -0.635271
+Loader: revision.obj: Vertex: 0.206399 0.133448 -0.655272
+Loader: revision.obj: Vertex: 0.376099 0.133448 -0.694807
+Loader: revision.obj: Vertex: 0.128513 0.133448 -0.788562
+Loader: revision.obj: Vertex: 0.53521 0.133448 -0.587656
+Loader: revision.obj: Vertex: 0.239017 0.133448 -0.751621
+Loader: revision.obj: Vertex: 0.338506 0.133448 -0.607529
+Loader: revision.obj: Vertex: -0.022496 0.133448 -0.798498
+Loader: revision.obj: Vertex: 0.803794 0.133448 0.006
+Loader: revision.obj: Vertex: 0.670746 0.133448 0.212365
+Loader: revision.obj: Vertex: 0.742413 0.133448 -0.30568
+Loader: revision.obj: Vertex: 0.760845 0.133448 0.241286
+Loader: revision.obj: Vertex: 0.781205 0.133448 -0.171443
+Loader: revision.obj: Vertex: 0.691363 0.133448 0.010618
+Loader: revision.obj: Vertex: 0.644212 0.133448 -0.464221
+Loader: revision.obj: Vertex: 0.952371 0.133448 -0.243629
+Loader: revision.obj: Vertex: 0.761398 0.133448 -0.631517
+Loader: revision.obj: Vertex: 0.911109 0.133448 -0.020466
+Loader: revision.obj: Vertex: 0.636207 0.133448 -0.75255
+Loader: revision.obj: Vertex: 0.980348 0.133448 -0.028082
+Loader: revision.obj: Vertex: 0.883889 0.133448 -0.440273
+Loader: revision.obj: Vertex: 0.895879 0.133448 0.181579
+Loader: revision.obj: Vertex: 0.57501 0.133448 0.394817
+Loader: revision.obj: Vertex: 0.486144 0.133448 0.503988
+Loader: revision.obj: Vertex: 0.666578 0.133448 0.455772
+Loader: revision.obj: Vertex: 0.839657 0.133448 0.362263
+Loader: revision.obj: Vertex: 0.463307 0.133448 0.665243
+Loader: revision.obj: Vertex: 0.255685 0.133408 0.771498
+Loader: revision.obj: Vertex: 0.562492 0.133448 0.581913
+Loader: revision.obj: Vertex: 0.461718 0.133448 0.799679
+Loader: revision.obj: Vertex: 0.634728 0.133448 0.674014
+Loader: revision.obj: Vertex: 0.323183 0.133408 0.866006
+Loader: revision.obj: Vertex: 0.347346 0.133428 0.737271
+Loader: revision.obj: Vertex: -0.01308 0.133448 -0.554462
+Loader: revision.obj: Vertex: -0.122425 0.133448 -0.543692
+Loader: revision.obj: Vertex: -0.227567 0.133448 -0.511798
+Loader: revision.obj: Vertex: -0.324467 0.133448 -0.460003
+Loader: revision.obj: Vertex: -0.409401 0.133448 -0.3903
+Loader: revision.obj: Vertex: -0.479104 0.133448 -0.305367
+Loader: revision.obj: Vertex: -0.530898 0.133448 -0.208467
+Loader: revision.obj: Vertex: -0.562793 0.133448 -0.103324
+Loader: revision.obj: Vertex: -0.573562 0.133448 0.006021
+Loader: revision.obj: Vertex: -0.562793 0.133448 0.115365
+Loader: revision.obj: Vertex: -0.530898 0.133448 0.220508
+Loader: revision.obj: Vertex: -0.479104 0.133448 0.317408
+Loader: revision.obj: Vertex: -0.409401 0.133448 0.402342
+Loader: revision.obj: Vertex: -0.324467 0.133448 0.472045
+Loader: revision.obj: Vertex: -0.227567 0.133448 0.523839
+Loader: revision.obj: Vertex: -0.122424 0.133448 0.555734
+Loader: revision.obj: Vertex: -0.01308 0.133448 0.566503
+Loader: revision.obj: Vertex: 0.096265 0.133448 0.555734
+Loader: revision.obj: Vertex: 0.201408 0.133448 0.523839
+Loader: revision.obj: Vertex: 0.298308 0.133448 0.472045
+Loader: revision.obj: Vertex: 0.383241 0.133448 0.402342
+Loader: revision.obj: Vertex: 0.452945 0.133448 0.317408
+Loader: revision.obj: Vertex: 0.504739 0.133448 0.220508
+Loader: revision.obj: Vertex: 0.536633 0.133448 0.115365
+Loader: revision.obj: Vertex: 0.547403 0.133448 0.00602
+Loader: revision.obj: Vertex: 0.536633 0.133448 -0.103324
+Loader: revision.obj: Vertex: 0.504738 0.133448 -0.208467
+Loader: revision.obj: Vertex: 0.452944 0.133448 -0.305367
+Loader: revision.obj: Vertex: 0.383241 0.133448 -0.390301
+Loader: revision.obj: Vertex: 0.298307 0.133448 -0.460004
+Loader: revision.obj: Vertex: 0.201407 0.133448 -0.511798
+Loader: revision.obj: Vertex: 0.096264 0.133448 -0.543692
+Loader: revision.obj: Vertex: 0.019292 0.133448 -0.266922
+Loader: revision.obj: Vertex: 0.022183 0.133448 -0.384384
+Loader: revision.obj: Vertex: -0.058875 0.133448 -0.385551
+Loader: revision.obj: Vertex: -0.151716 0.133448 -0.357398
+Loader: revision.obj: Vertex: -0.275068 0.133448 -0.078166
+Loader: revision.obj: Vertex: -0.288671 0.133448 -0.006377
+Loader: revision.obj: Vertex: -0.405888 0.133448 -0.018225
+Loader: revision.obj: Vertex: -0.407846 0.133448 0.042521
+Loader: revision.obj: Vertex: -0.393511 0.133448 0.106817
+Loader: revision.obj: Vertex: -0.470347 0.133448 0.130488
+Loader: revision.obj: Vertex: -0.432451 0.133448 0.239672
+Loader: revision.obj: Vertex: -0.346485 0.133448 0.348139
+Loader: revision.obj: Vertex: -0.254756 0.133448 0.418365
+Loader: revision.obj: Vertex: -0.147028 0.133448 0.471031
+Loader: revision.obj: Vertex: -0.029187 0.133448 0.483559
+Loader: revision.obj: Vertex: -0.027817 0.133448 0.402703
+Loader: revision.obj: Vertex: 0.052105 0.133448 0.399306
+Loader: revision.obj: Vertex: 0.132027 0.133448 0.377703
+Loader: revision.obj: Vertex: 0.088083 0.133448 0.269492
+Loader: revision.obj: Vertex: 0.143423 0.133448 0.241339
+Loader: revision.obj: Vertex: 0.202712 0.133448 0.187111
+Loader: revision.obj: Vertex: 0.242878 0.133448 0.129385
+Loader: revision.obj: Vertex: 0.349157 0.133448 0.178733
+Loader: revision.obj: Vertex: 0.382366 0.133448 0.086737
+Loader: revision.obj: Vertex: 0.386781 0.133448 -0.018185
+Loader: revision.obj: Vertex: 0.368303 0.133448 -0.11217
+Loader: revision.obj: Vertex: 0.447596 0.133448 -0.130727
+Loader: revision.obj: Vertex: 0.403818 0.133448 -0.226693
+Loader: revision.obj: Vertex: 0.335527 0.133448 -0.190668
+Loader: revision.obj: Vertex: 0.262175 0.133448 -0.279272
+Loader: revision.obj: Vertex: 0.181834 0.133448 -0.194923
+Loader: revision.obj: Vertex: 0.105463 0.133448 -0.242194
+Loader: revision.obj: Vertex: -0.357145 0.133448 -0.31544
+Loader: revision.obj: Vertex: -0.255993 0.133448 -0.399701
+Loader: revision.obj: Vertex: -0.350482 0.133448 -0.19524
+Loader: revision.obj: Vertex: -0.214011 0.133448 -0.330111
+Loader: revision.obj: Vertex: -0.297562 0.133448 -0.264715
+Loader: revision.obj: Vertex: -0.322975 0.133448 -0.350539
+Loader: revision.obj: Vertex: -0.383089 0.133448 -0.117953
+Loader: revision.obj: Vertex: -0.008841 0.133448 -0.174489
+Loader: revision.obj: Vertex: -0.080337 0.133448 -0.160268
+Loader: revision.obj: Vertex: -0.140948 0.133448 -0.119768
+Loader: revision.obj: Vertex: -0.181448 0.133448 -0.059157
+Loader: revision.obj: Vertex: -0.195669 0.133448 0.012339
+Loader: revision.obj: Vertex: -0.181448 0.133448 0.083835
+Loader: revision.obj: Vertex: -0.308228 0.133448 0.131787
+Loader: revision.obj: Vertex: -0.269318 0.133448 0.206646
+Loader: revision.obj: Vertex: -0.159845 0.133448 0.299534
+Loader: revision.obj: Vertex: -0.061223 0.133448 0.330524
+Loader: revision.obj: Vertex: -0.035876 0.133448 0.189657
+Loader: revision.obj: Vertex: 0.163765 0.133448 0.076601
+Loader: revision.obj: Vertex: 0.17437 0.133448 0.008722
+Loader: revision.obj: Vertex: 0.163765 0.133448 -0.059157
+Loader: revision.obj: Vertex: 0.123266 0.133448 -0.119769
+Loader: revision.obj: Vertex: 0.062655 0.133448 -0.160268
+Loader: revision.obj: Vertex: -0.008841 0.133448 -0.081075
+Loader: revision.obj: Vertex: -0.063749 0.133448 -0.063235
+Loader: revision.obj: Vertex: -0.097683 0.133448 -0.016528
+Loader: revision.obj: Vertex: -0.097683 0.133448 0.041205
+Loader: revision.obj: Vertex: -0.063749 0.133448 0.087912
+Loader: revision.obj: Vertex: -0.008841 0.133448 0.105753
+Loader: revision.obj: Vertex: 0.046066 0.133448 0.087912
+Loader: revision.obj: Vertex: 0.080001 0.133448 0.041205
+Loader: revision.obj: Vertex: 0.080001 0.133448 -0.016528
+Loader: revision.obj: Vertex: 0.046066 0.133448 -0.063235
+Loader: revision.obj: Vertex: 0.090167 0.133448 0.164776
+Loader: revision.obj: Vertex: 0.024885 0.133448 0.191232
+Loader: revision.obj: Vertex: 0.131035 0.133448 0.130183
+Loader: revision.obj: Vertex: -0.218198 0.133448 0.25942
+Loader: revision.obj: Vertex: 0.220019 -0.133448 -0.884722
+Loader: revision.obj: Vertex: 0.128513 -0.133448 -0.788562
+Loader: revision.obj: Vertex: -0.028096 -0.133448 -0.913245
+Loader: revision.obj: Vertex: 0.461749 -0.133449 0.799665
+Loader: revision.obj: Vertex: 0.347392 -0.133468 0.737255
+Loader: revision.obj: Vertex: 0.46333 -0.133449 0.665243
+Loader: revision.obj: Vertex: -0.022496 -0.133448 -0.798498
+Loader: revision.obj: Vertex: -0.163702 -0.133449 -0.682697
+Loader: revision.obj: Vertex: -0.31974 -0.133448 -0.866324
+Loader: revision.obj: Vertex: 0.457331 -0.133448 -0.791389
+Loader: revision.obj: Vertex: 0.492114 -0.133448 -0.849279
+Loader: revision.obj: Vertex: 0.636207 -0.133449 -0.75255
+Loader: revision.obj: Vertex: 0.32318 -0.133488 0.866016
+Loader: revision.obj: Vertex: 0.198256 -0.133449 0.907763
+Loader: revision.obj: Vertex: 0.255697 -0.133488 0.771428
+Loader: revision.obj: Vertex: -0.016883 -0.133449 -0.695018
+Loader: revision.obj: Vertex: -0.549342 -0.133449 0.755936
+Loader: revision.obj: Vertex: -0.693003 -0.133449 0.710358
+Loader: revision.obj: Vertex: -0.663569 -0.133449 0.670017
+Loader: revision.obj: Vertex: 0.239017 -0.133449 -0.751621
+Loader: revision.obj: Vertex: -0.243242 -0.133449 0.901842
+Loader: revision.obj: Vertex: -0.389748 -0.133449 0.850286
+Loader: revision.obj: Vertex: -0.297866 -0.133449 0.765857
+Loader: revision.obj: Vertex: 0.206399 -0.133449 -0.655272
+Loader: revision.obj: Vertex: 0.376099 -0.133449 -0.694807
+Loader: revision.obj: Vertex: 0.761398 -0.133449 -0.631517
+Loader: revision.obj: Vertex: 0.53521 -0.133449 -0.587656
+Loader: revision.obj: Vertex: -0.607907 -0.133448 -0.70754
+Loader: revision.obj: Vertex: -0.346625 -0.133449 -0.728267
+Loader: revision.obj: Vertex: -0.518042 -0.133449 -0.619575
+Loader: revision.obj: Vertex: -0.305121 -0.133449 -0.635271
+Loader: revision.obj: Vertex: 0.562492 -0.133449 0.581913
+Loader: revision.obj: Vertex: 0.486144 -0.133449 0.503988
+Loader: revision.obj: Vertex: 0.666578 -0.133449 0.455772
+Loader: revision.obj: Vertex: -0.657054 -0.133449 -0.481179
+Loader: revision.obj: Vertex: 0.338506 -0.133449 -0.607529
+Loader: revision.obj: Vertex: 0.883889 -0.133449 -0.440273
+Loader: revision.obj: Vertex: 0.644212 -0.133449 -0.464221
+Loader: revision.obj: Vertex: -0.476025 -0.133449 0.670626
+Loader: revision.obj: Vertex: -0.777163 -0.133449 -0.242868
+Loader: revision.obj: Vertex: -0.804261 -0.133448 -0.481245
+Loader: revision.obj: Vertex: 0.911109 -0.133449 -0.020466
+Loader: revision.obj: Vertex: 0.781205 -0.133449 -0.171443
+Loader: revision.obj: Vertex: 0.952371 -0.133449 -0.243629
+Loader: revision.obj: Vertex: 0.742413 -0.133449 -0.30568
+Loader: revision.obj: Vertex: -0.888108 -0.133448 -0.295246
+Loader: revision.obj: Vertex: 0.980348 -0.133449 -0.028082
+Loader: revision.obj: Vertex: -0.805458 -0.133449 -0.077469
+Loader: revision.obj: Vertex: 0.803794 -0.133449 0.006
+Loader: revision.obj: Vertex: 0.760845 -0.133449 0.241286
+Loader: revision.obj: Vertex: 0.670746 -0.133449 0.212365
+Loader: revision.obj: Vertex: 0.691363 -0.133449 0.010618
+Loader: revision.obj: Vertex: -0.931584 -0.133448 0.038946
+Loader: revision.obj: Vertex: -0.712235 -0.133449 -0.065991
+Loader: revision.obj: Vertex: -0.696678 -0.133449 0.184134
+Loader: revision.obj: Vertex: 0.769932 -0.133449 0.505142
+Loader: revision.obj: Vertex: 0.634728 -0.133449 0.674014
+Loader: revision.obj: Vertex: 0.895879 -0.133449 0.181579
+Loader: revision.obj: Vertex: -0.594708 -0.133449 0.415356
+Loader: revision.obj: Vertex: -0.41655 -0.133449 0.588898
+Loader: revision.obj: Vertex: -0.907416 -0.133449 0.230345
+Loader: revision.obj: Vertex: 0.839657 -0.133449 0.362263
+Loader: revision.obj: Vertex: -0.839635 -0.133449 0.419209
+Loader: revision.obj: Vertex: 0.57501 -0.133449 0.394817
+Loader: revision.obj: Vertex: -0.758353 -0.133449 0.556763
+Loader: revision.obj: Vertex: 0.061926 -0.133449 0.713752
+Loader: revision.obj: Vertex: 0.215154 -0.133449 0.681045
+Loader: revision.obj: Vertex: -0.125724 -0.133449 0.806115
+Loader: revision.obj: Vertex: -0.112906 -0.133449 0.705952
+Loader: revision.obj: Vertex: -0.582017 -0.133449 0.799307
+Loader: revision.obj: Vertex: -0.026527 -0.133449 0.929094
+Loader: revision.obj: Vertex: -0.122425 -0.133449 -0.543692
+Loader: revision.obj: Vertex: -0.01308 -0.133449 -0.554462
+Loader: revision.obj: Vertex: -0.058875 -0.133449 -0.385551
+Loader: revision.obj: Vertex: -0.227567 -0.133448 0.523839
+Loader: revision.obj: Vertex: -0.254756 -0.133448 0.418365
+Loader: revision.obj: Vertex: -0.147028 -0.133448 0.471031
+Loader: revision.obj: Vertex: -0.227567 -0.133448 -0.511798
+Loader: revision.obj: Vertex: -0.151716 -0.133449 -0.357398
+Loader: revision.obj: Vertex: -0.255993 -0.133449 -0.399701
+Loader: revision.obj: Vertex: -0.324467 -0.133448 -0.460003
+Loader: revision.obj: Vertex: -0.322975 -0.133448 -0.350539
+Loader: revision.obj: Vertex: 0.143423 -0.133449 0.241339
+Loader: revision.obj: Vertex: 0.383241 -0.133449 0.402342
+Loader: revision.obj: Vertex: 0.132027 -0.133449 0.377703
+Loader: revision.obj: Vertex: -0.409401 -0.133448 -0.3903
+Loader: revision.obj: Vertex: 0.298307 -0.133449 -0.460004
+Loader: revision.obj: Vertex: 0.262175 -0.133449 -0.279272
+Loader: revision.obj: Vertex: 0.201407 -0.133449 -0.511798
+Loader: revision.obj: Vertex: 0.504739 -0.133449 0.220508
+Loader: revision.obj: Vertex: 0.382366 -0.133449 0.086737
+Loader: revision.obj: Vertex: 0.536633 -0.133449 0.115365
+Loader: revision.obj: Vertex: -0.214011 -0.133448 -0.330111
+Loader: revision.obj: Vertex: 0.022183 -0.133449 -0.384384
+Loader: revision.obj: Vertex: 0.096264 -0.133449 -0.543692
+Loader: revision.obj: Vertex: 0.383241 -0.133449 -0.390301
+Loader: revision.obj: Vertex: -0.324467 -0.133448 0.472045
+Loader: revision.obj: Vertex: -0.346485 -0.133448 0.348139
+Loader: revision.obj: Vertex: -0.479104 -0.133448 -0.305367
+Loader: revision.obj: Vertex: -0.357145 -0.133448 -0.31544
+Loader: revision.obj: Vertex: -0.383089 -0.133448 -0.117953
+Loader: revision.obj: Vertex: -0.530898 -0.133448 -0.208467
+Loader: revision.obj: Vertex: -0.350482 -0.133449 -0.19524
+Loader: revision.obj: Vertex: -0.297562 -0.133448 -0.264715
+Loader: revision.obj: Vertex: 0.096265 -0.133449 0.555734
+Loader: revision.obj: Vertex: 0.201408 -0.133449 0.523839
+Loader: revision.obj: Vertex: 0.403818 -0.133449 -0.226693
+Loader: revision.obj: Vertex: -0.470347 -0.133448 0.130489
+Loader: revision.obj: Vertex: -0.573562 -0.133448 0.006021
+Loader: revision.obj: Vertex: -0.407846 -0.133448 0.042521
+Loader: revision.obj: Vertex: 0.335526 -0.133449 -0.190668
+Loader: revision.obj: Vertex: 0.181834 -0.133449 -0.194923
+Loader: revision.obj: Vertex: 0.105463 -0.133449 -0.242194
+Loader: revision.obj: Vertex: 0.504738 -0.133449 -0.208467
+Loader: revision.obj: Vertex: 0.447596 -0.133449 -0.130727
+Loader: revision.obj: Vertex: 0.536633 -0.133449 -0.103324
+Loader: revision.obj: Vertex: -0.562793 -0.133448 -0.103324
+Loader: revision.obj: Vertex: -0.393511 -0.133448 0.106817
+Loader: revision.obj: Vertex: 0.368303 -0.133449 -0.11217
+Loader: revision.obj: Vertex: 0.386781 -0.133449 -0.018185
+Loader: revision.obj: Vertex: -0.405888 -0.133448 -0.018225
+Loader: revision.obj: Vertex: 0.052105 -0.133449 0.399306
+Loader: revision.obj: Vertex: 0.547403 -0.133449 0.00602
+Loader: revision.obj: Vertex: -0.288671 -0.133448 -0.006377
+Loader: revision.obj: Vertex: -0.275068 -0.133449 -0.078166
+Loader: revision.obj: Vertex: -0.562793 -0.133448 0.115365
+Loader: revision.obj: Vertex: 0.349157 -0.133449 0.178733
+Loader: revision.obj: Vertex: 0.452944 -0.133449 -0.305367
+Loader: revision.obj: Vertex: -0.530898 -0.133448 0.220508
+Loader: revision.obj: Vertex: 0.202712 -0.133449 0.187111
+Loader: revision.obj: Vertex: 0.242878 -0.133449 0.129385
+Loader: revision.obj: Vertex: -0.432451 -0.133448 0.239672
+Loader: revision.obj: Vertex: 0.452945 -0.133449 0.317408
+Loader: revision.obj: Vertex: -0.479104 -0.133448 0.317408
+Loader: revision.obj: Vertex: 0.088083 -0.133449 0.269492
+Loader: revision.obj: Vertex: -0.409401 -0.133448 0.402342
+Loader: revision.obj: Vertex: -0.029187 -0.133449 0.483559
+Loader: revision.obj: Vertex: -0.027817 -0.133449 0.402703
+Loader: revision.obj: Vertex: 0.298308 -0.133449 0.472045
+Loader: revision.obj: Vertex: 0.019292 -0.133449 -0.266922
+Loader: revision.obj: Vertex: -0.122424 -0.133448 0.555734
+Loader: revision.obj: Vertex: -0.01308 -0.133449 0.566503
+Loader: revision.obj: Vertex: -0.080337 -0.133449 -0.160268
+Loader: revision.obj: Vertex: -0.008841 -0.133449 -0.174489
+Loader: revision.obj: Vertex: -0.008841 -0.133449 -0.081075
+Loader: revision.obj: Vertex: 0.131035 -0.133449 0.130183
+Loader: revision.obj: Vertex: 0.080001 -0.133449 0.041205
+Loader: revision.obj: Vertex: 0.163765 -0.133449 0.076601
+Loader: revision.obj: Vertex: -0.140948 -0.133449 -0.119768
+Loader: revision.obj: Vertex: -0.063749 -0.133449 -0.063235
+Loader: revision.obj: Vertex: 0.062655 -0.133449 -0.160268
+Loader: revision.obj: Vertex: 0.046066 -0.133449 -0.063235
+Loader: revision.obj: Vertex: -0.008841 -0.133449 0.105753
+Loader: revision.obj: Vertex: 0.024885 -0.133449 0.191232
+Loader: revision.obj: Vertex: -0.035876 -0.133449 0.189657
+Loader: revision.obj: Vertex: 0.123266 -0.133449 -0.119769
+Loader: revision.obj: Vertex: 0.080001 -0.133449 -0.016528
+Loader: revision.obj: Vertex: 0.163765 -0.133449 -0.059157
+Loader: revision.obj: Vertex: -0.097683 -0.133449 -0.016528
+Loader: revision.obj: Vertex: 0.17437 -0.133449 0.008722
+Loader: revision.obj: Vertex: -0.195669 -0.133449 0.012339
+Loader: revision.obj: Vertex: -0.181448 -0.133449 -0.059157
+Loader: revision.obj: Vertex: -0.097683 -0.133449 0.041205
+Loader: revision.obj: Vertex: -0.181448 -0.133449 0.083835
+Loader: revision.obj: Vertex: -0.063749 -0.133449 0.087912
+Loader: revision.obj: Vertex: 0.046066 -0.133449 0.087912
+Loader: revision.obj: Vertex: -0.308228 -0.133449 0.131787
+Loader: revision.obj: Vertex: -0.269318 -0.133449 0.206646
+Loader: revision.obj: Vertex: -0.159845 -0.133449 0.299534
+Loader: revision.obj: Vertex: -0.218198 -0.133449 0.25942
+Loader: revision.obj: Vertex: 0.090167 -0.133449 0.164776
+Loader: revision.obj: Vertex: -0.061223 -0.133449 0.330523
+Loader: revision.obj: Unrecognized: s off
+Loader: revision.obj: Triangle indices: 202 207 200
+Loader: revision.obj: Triangle indices: 138 77 78
+Loader: revision.obj: Triangle indices: 186 238 187
+Loader: revision.obj: Triangle indices: 25 218 225
+Loader: revision.obj: Triangle indices: 160 144 145
+Loader: revision.obj: Triangle indices: 5 2 7
+Loader: revision.obj: Triangle indices: 35 34 66
+Loader: revision.obj: Triangle indices: 253 250 252
+Loader: revision.obj: Triangle indices: 256 257 255
+Loader: revision.obj: Triangle indices: 164 153 170
+Loader: revision.obj: Triangle indices: 103 105 102
+Loader: revision.obj: Triangle indices: 336 333 335
+Loader: revision.obj: Triangle indices: 329 330 332
+Loader: revision.obj: Triangle indices: 148 336 339
+Loader: revision.obj: Triangle indices: 86 85 269
+Loader: revision.obj: Triangle indices: 49 217 215
+Loader: revision.obj: Triangle indices: 113 280 290
+Loader: revision.obj: Triangle indices: 137 252 265
+Loader: revision.obj: Triangle indices: 72 245 244
+Loader: revision.obj: Triangle indices: 9 220 212
+Loader: revision.obj: Triangle indices: 163 337 335
+Loader: revision.obj: Triangle indices: 99 300 268
+Loader: revision.obj: Triangle indices: 37 180 188
+Loader: revision.obj: Triangle indices: 127 263 299
+Loader: revision.obj: Triangle indices: 67 204 178
+Loader: revision.obj: Triangle indices: 149 339 340
+Loader: revision.obj: Triangle indices: 86 247 313
+Loader: revision.obj: Triangle indices: 114 304 280
+Loader: revision.obj: Triangle indices: 47 221 224
+Loader: revision.obj: Triangle indices: 138 275 276
+Loader: revision.obj: Triangle indices: 74 73 244
+Loader: revision.obj: Triangle indices: 7 207 202
+Loader: revision.obj: Triangle indices: 164 325 337
+Loader: revision.obj: Triangle indices: 101 100 268
+Loader: revision.obj: Triangle indices: 8 201 203
+Loader: revision.obj: Triangle indices: 66 71 177
+Loader: revision.obj: Triangle indices: 128 292 263
+Loader: revision.obj: Triangle indices: 150 340 342
+Loader: revision.obj: Triangle indices: 88 87 313
+Loader: revision.obj: Triangle indices: 2 213 218
+Loader: revision.obj: Triangle indices: 115 270 304
+Loader: revision.obj: Triangle indices: 53 43 199
+Loader: revision.obj: Triangle indices: 136 272 254
+Loader: revision.obj: Triangle indices: 74 250 253
+Loader: revision.obj: Triangle indices: 26 227 226
+Loader: revision.obj: Triangle indices: 165 338 325
+Loader: revision.obj: Triangle indices: 101 259 261
+Loader: revision.obj: Triangle indices: 44 192 196
+Loader: revision.obj: Triangle indices: 129 291 292
+Loader: revision.obj: Triangle indices: 62 205 204
+Loader: revision.obj: Triangle indices: 151 341 344
+Loader: revision.obj: Triangle indices: 88 314 277
+Loader: revision.obj: Triangle indices: 4 231 227
+Loader: revision.obj: Triangle indices: 116 248 270
+Loader: revision.obj: Triangle indices: 58 219 216
+Loader: revision.obj: Triangle indices: 16 183 182
+Loader: revision.obj: Triangle indices: 142 108 297
+Loader: revision.obj: Triangle indices: 75 253 258
+Loader: revision.obj: Triangle indices: 165 166 319
+Loader: revision.obj: Triangle indices: 102 261 267
+Loader: revision.obj: Triangle indices: 45 208 197
+Loader: revision.obj: Triangle indices: 130 287 291
+Loader: revision.obj: Triangle indices: 70 185 176
+Loader: revision.obj: Triangle indices: 3 175 181
+Loader: revision.obj: Triangle indices: 152 344 327
+Loader: revision.obj: Triangle indices: 89 277 278
+Loader: revision.obj: Triangle indices: 29 195 211
+Loader: revision.obj: Triangle indices: 116 117 249
+Loader: revision.obj: Triangle indices: 59 209 198
+Loader: revision.obj: Triangle indices: 76 258 271
+Loader: revision.obj: Triangle indices: 14 182 173
+Loader: revision.obj: Triangle indices: 166 167 329
+Loader: revision.obj: Triangle indices: 103 267 245
+Loader: revision.obj: Triangle indices: 46 179 174
+Loader: revision.obj: Triangle indices: 131 279 287
+Loader: revision.obj: Triangle indices: 69 68 176
+Loader: revision.obj: Triangle indices: 2 5 200
+Loader: revision.obj: Triangle indices: 153 327 326
+Loader: revision.obj: Triangle indices: 90 278 311
+Loader: revision.obj: Triangle indices: 27 211 232
+Loader: revision.obj: Triangle indices: 118 309 249
+Loader: revision.obj: Triangle indices: 60 230 214
+Loader: revision.obj: Triangle indices: 77 271 274
+Loader: revision.obj: Triangle indices: 57 184 183
+Loader: revision.obj: Triangle indices: 168 324 329
+Loader: revision.obj: Triangle indices: 105 266 312
+Loader: revision.obj: Triangle indices: 43 41 197
+Loader: revision.obj: Triangle indices: 132 283 279
+Loader: revision.obj: Triangle indices: 71 65 178
+Loader: revision.obj: Triangle indices: 4 28 232
+Loader: revision.obj: Triangle indices: 154 320 332
+Loader: revision.obj: Triangle indices: 91 311 256
+Loader: revision.obj: Triangle indices: 33 240 195
+Loader: revision.obj: Triangle indices: 118 119 310
+Loader: revision.obj: Triangle indices: 55 198 184
+Loader: revision.obj: Triangle indices: 78 274 289
+Loader: revision.obj: Triangle indices: 21 191 190
+Loader: revision.obj: Triangle indices: 159 317 324
+Loader: revision.obj: Triangle indices: 105 106 246
+Loader: revision.obj: Triangle indices: 44 42 174
+Loader: revision.obj: Triangle indices: 133 260 283
+Loader: revision.obj: Triangle indices: 66 187 239
+Loader: revision.obj: Triangle indices: 3 15 173
+Loader: revision.obj: Triangle indices: 156 155 332
+Loader: revision.obj: Triangle indices: 93 92 256
+Loader: revision.obj: Triangle indices: 31 35 238
+Loader: revision.obj: Triangle indices: 120 294 310
+Loader: revision.obj: Triangle indices: 56 214 219
+Loader: revision.obj: Triangle indices: 79 289 281
+Loader: revision.obj: Triangle indices: 18 22 242
+Loader: revision.obj: Triangle indices: 171 169 343
+Loader: revision.obj: Triangle indices: 107 251 246
+Loader: revision.obj: Triangle indices: 40 196 208
+Loader: revision.obj: Triangle indices: 134 284 260
+Loader: revision.obj: Triangle indices: 70 34 186
+Loader: revision.obj: Triangle indices: 5 1 181
+Loader: revision.obj: Triangle indices: 156 330 328
+Loader: revision.obj: Triangle indices: 93 305 262
+Loader: revision.obj: Triangle indices: 36 193 243
+Loader: revision.obj: Triangle indices: 54 216 209
+Loader: revision.obj: Triangle indices: 120 121 257
+Loader: revision.obj: Triangle indices: 143 316 315
+Loader: revision.obj: Triangle indices: 80 281 298
+Loader: revision.obj: Triangle indices: 23 235 237
+Loader: revision.obj: Triangle indices: 170 326 343
+Loader: revision.obj: Triangle indices: 139 265 251
+Loader: revision.obj: Triangle indices: 38 188 179
+Loader: revision.obj: Triangle indices: 135 285 284
+Loader: revision.obj: Triangle indices: 6 24 225
+Loader: revision.obj: Triangle indices: 157 328 323
+Loader: revision.obj: Triangle indices: 94 262 264
+Loader: revision.obj: Triangle indices: 31 241 240
+Loader: revision.obj: Triangle indices: 121 122 307
+Loader: revision.obj: Triangle indices: 60 64 234
+Loader: revision.obj: Triangle indices: 144 315 321
+Loader: revision.obj: Triangle indices: 82 81 298
+Loader: revision.obj: Triangle indices: 18 189 194
+Loader: revision.obj: Triangle indices: 171 318 320
+Loader: revision.obj: Triangle indices: 108 109 296
+Loader: revision.obj: Triangle indices: 51 215 221
+Loader: revision.obj: Triangle indices: 135 104 312
+Loader: revision.obj: Triangle indices: 11 212 207
+Loader: revision.obj: Triangle indices: 158 323 316
+Loader: revision.obj: Triangle indices: 95 264 295
+Loader: revision.obj: Triangle indices: 32 243 186
+Loader: revision.obj: Triangle indices: 123 255 307
+Loader: revision.obj: Triangle indices: 63 206 236
+Loader: revision.obj: Triangle indices: 145 321 334
+Loader: revision.obj: Triangle indices: 82 301 306
+Loader: revision.obj: Triangle indices: 19 237 191
+Loader: revision.obj: Triangle indices: 172 342 341
+Loader: revision.obj: Triangle indices: 110 293 296
+Loader: revision.obj: Triangle indices: 52 224 223
+Loader: revision.obj: Triangle indices: 140 276 272
+Loader: revision.obj: Triangle indices: 12 202 201
+Loader: revision.obj: Triangle indices: 160 322 317
+Loader: revision.obj: Triangle indices: 96 295 288
+Loader: revision.obj: Triangle indices: 35 30 239
+Loader: revision.obj: Triangle indices: 124 302 255
+Loader: revision.obj: Triangle indices: 61 236 205
+Loader: revision.obj: Triangle indices: 146 334 333
+Loader: revision.obj: Triangle indices: 83 306 308
+Loader: revision.obj: Triangle indices: 17 190 242
+Loader: revision.obj: Triangle indices: 110 111 282
+Loader: revision.obj: Triangle indices: 53 210 217
+Loader: revision.obj: Triangle indices: 141 254 252
+Loader: revision.obj: Triangle indices: 13 226 220
+Loader: revision.obj: Triangle indices: 161 331 322
+Loader: revision.obj: Triangle indices: 97 288 286
+Loader: revision.obj: Triangle indices: 20 194 193
+Loader: revision.obj: Triangle indices: 125 303 302
+Loader: revision.obj: Triangle indices: 50 222 206
+Loader: revision.obj: Triangle indices: 148 147 333
+Loader: revision.obj: Triangle indices: 84 308 269
+Loader: revision.obj: Triangle indices: 6 233 235
+Loader: revision.obj: Triangle indices: 111 112 290
+Loader: revision.obj: Triangle indices: 48 223 222
+Loader: revision.obj: Triangle indices: 138 142 273
+Loader: revision.obj: Triangle indices: 69 229 228
+Loader: revision.obj: Triangle indices: 162 335 331
+Loader: revision.obj: Triangle indices: 98 286 300
+Loader: revision.obj: Triangle indices: 39 203 180
+Loader: revision.obj: Triangle indices: 126 299 303
+Loader: revision.obj: Triangle indices: 10 228 234
+Loader: revision.obj: Triangle indices: 178 229 176
+Loader: revision.obj: Triangle indices: 206 234 228
+Loader: revision.obj: Triangle indices: 216 219 214
+Loader: revision.obj: Triangle indices: 222 230 234
+Loader: revision.obj: Triangle indices: 177 176 185
+Loader: revision.obj: Triangle indices: 185 187 177
+Loader: revision.obj: Triangle indices: 206 205 236
+Loader: revision.obj: Triangle indices: 176 177 178
+Loader: revision.obj: Triangle indices: 204 205 206
+Loader: revision.obj: Triangle indices: 229 178 204
+Loader: revision.obj: Triangle indices: 221 214 230
+Loader: revision.obj: Triangle indices: 206 229 204
+Loader: revision.obj: Triangle indices: 222 223 224
+Loader: revision.obj: Triangle indices: 228 229 206
+Loader: revision.obj: Triangle indices: 222 224 221
+Loader: revision.obj: Triangle indices: 234 206 222
+Loader: revision.obj: Triangle indices: 221 215 214
+Loader: revision.obj: Triangle indices: 210 198 209
+Loader: revision.obj: Triangle indices: 182 183 184
+Loader: revision.obj: Triangle indices: 197 192 182
+Loader: revision.obj: Triangle indices: 179 181 175
+Loader: revision.obj: Triangle indices: 207 213 200
+Loader: revision.obj: Triangle indices: 220 225 218
+Loader: revision.obj: Triangle indices: 227 235 233
+Loader: revision.obj: Triangle indices: 189 190 191
+Loader: revision.obj: Triangle indices: 227 231 235
+Loader: revision.obj: Triangle indices: 199 184 198
+Loader: revision.obj: Triangle indices: 220 227 225
+Loader: revision.obj: Triangle indices: 199 182 184
+Loader: revision.obj: Triangle indices: 225 227 233
+Loader: revision.obj: Triangle indices: 230 222 221
+Loader: revision.obj: Triangle indices: 189 242 190
+Loader: revision.obj: Triangle indices: 215 216 214
+Loader: revision.obj: Triangle indices: 211 194 189
+Loader: revision.obj: Triangle indices: 217 216 215
+Loader: revision.obj: Triangle indices: 195 193 194
+Loader: revision.obj: Triangle indices: 209 216 217
+Loader: revision.obj: Triangle indices: 240 243 193
+Loader: revision.obj: Triangle indices: 209 217 210
+Loader: revision.obj: Triangle indices: 243 238 186
+Loader: revision.obj: Triangle indices: 198 210 199
+Loader: revision.obj: Triangle indices: 240 241 238
+Loader: revision.obj: Triangle indices: 182 199 197
+Loader: revision.obj: Triangle indices: 240 238 243
+Loader: revision.obj: Triangle indices: 192 173 182
+Loader: revision.obj: Triangle indices: 195 240 193
+Loader: revision.obj: Triangle indices: 197 208 196
+Loader: revision.obj: Triangle indices: 211 195 194
+Loader: revision.obj: Triangle indices: 197 196 192
+Loader: revision.obj: Triangle indices: 191 211 189
+Loader: revision.obj: Triangle indices: 174 173 192
+Loader: revision.obj: Triangle indices: 231 232 211
+Loader: revision.obj: Triangle indices: 175 173 174
+Loader: revision.obj: Triangle indices: 191 231 211
+Loader: revision.obj: Triangle indices: 175 174 179
+Loader: revision.obj: Triangle indices: 220 226 227
+Loader: revision.obj: Triangle indices: 180 181 179
+Loader: revision.obj: Triangle indices: 191 237 231
+Loader: revision.obj: Triangle indices: 179 188 180
+Loader: revision.obj: Triangle indices: 237 235 231
+Loader: revision.obj: Triangle indices: 201 180 203
+Loader: revision.obj: Triangle indices: 212 220 218
+Loader: revision.obj: Triangle indices: 181 180 201
+Loader: revision.obj: Triangle indices: 212 218 213
+Loader: revision.obj: Triangle indices: 200 181 201
+Loader: revision.obj: Triangle indices: 207 212 213
+Loader: revision.obj: Triangle indices: 200 201 202
+Loader: revision.obj: Triangle indices: 138 140 136
+Loader: revision.obj: Triangle indices: 78 142 138
+Loader: revision.obj: Triangle indices: 142 78 79
+Loader: revision.obj: Triangle indices: 136 76 77
+Loader: revision.obj: Triangle indices: 77 138 136
+Loader: revision.obj: Triangle indices: 187 185 186
+Loader: revision.obj: Triangle indices: 238 239 187
+Loader: revision.obj: Triangle indices: 24 25 225
+Loader: revision.obj: Triangle indices: 153 164 163
+Loader: revision.obj: Triangle indices: 169 165 170
+Loader: revision.obj: Triangle indices: 148 163 162
+Loader: revision.obj: Triangle indices: 171 165 169
+Loader: revision.obj: Triangle indices: 148 153 163
+Loader: revision.obj: Triangle indices: 171 166 165
+Loader: revision.obj: Triangle indices: 151 152 153
+Loader: revision.obj: Triangle indices: 154 166 171
+Loader: revision.obj: Triangle indices: 147 162 161
+Loader: revision.obj: Triangle indices: 155 166 154
+Loader: revision.obj: Triangle indices: 172 151 153
+Loader: revision.obj: Triangle indices: 155 167 166
+Loader: revision.obj: Triangle indices: 148 172 153
+Loader: revision.obj: Triangle indices: 156 167 155
+Loader: revision.obj: Triangle indices: 145 161 160
+Loader: revision.obj: Triangle indices: 157 167 156
+Loader: revision.obj: Triangle indices: 148 149 150
+Loader: revision.obj: Triangle indices: 157 168 167
+Loader: revision.obj: Triangle indices: 148 150 172
+Loader: revision.obj: Triangle indices: 158 168 157
+Loader: revision.obj: Triangle indices: 147 148 162
+Loader: revision.obj: Triangle indices: 159 168 158
+Loader: revision.obj: Triangle indices: 146 147 161
+Loader: revision.obj: Triangle indices: 143 159 158
+Loader: revision.obj: Triangle indices: 159 143 144
+Loader: revision.obj: Triangle indices: 161 145 146
+Loader: revision.obj: Triangle indices: 144 160 159
+Loader: revision.obj: Triangle indices: 63 62 67
+Loader: revision.obj: Triangle indices: 71 66 70
+Loader: revision.obj: Triangle indices: 63 61 62
+Loader: revision.obj: Triangle indices: 68 71 70
+Loader: revision.obj: Triangle indices: 52 48 50
+Loader: revision.obj: Triangle indices: 68 65 71
+Loader: revision.obj: Triangle indices: 47 52 50
+Loader: revision.obj: Triangle indices: 69 65 68
+Loader: revision.obj: Triangle indices: 40 45 41
+Loader: revision.obj: Triangle indices: 69 67 65
+Loader: revision.obj: Triangle indices: 44 40 41
+Loader: revision.obj: Triangle indices: 63 67 69
+Loader: revision.obj: Triangle indices: 37 38 46
+Loader: revision.obj: Triangle indices: 10 63 69
+Loader: revision.obj: Triangle indices: 1 37 46
+Loader: revision.obj: Triangle indices: 64 63 10
+Loader: revision.obj: Triangle indices: 8 39 37
+Loader: revision.obj: Triangle indices: 64 50 63
+Loader: revision.obj: Triangle indices: 26 13 9
+Loader: revision.obj: Triangle indices: 60 50 64
+Loader: revision.obj: Triangle indices: 27 28 4
+Loader: revision.obj: Triangle indices: 47 50 60
+Loader: revision.obj: Triangle indices: 35 31 33
+Loader: revision.obj: Triangle indices: 56 47 60
+Loader: revision.obj: Triangle indices: 32 35 33
+Loader: revision.obj: Triangle indices: 56 51 47
+Loader: revision.obj: Triangle indices: 36 33 29
+Loader: revision.obj: Triangle indices: 54 51 56
+Loader: revision.obj: Triangle indices: 32 34 35
+Loader: revision.obj: Triangle indices: 54 56 58
+Loader: revision.obj: Triangle indices: 20 29 27
+Loader: revision.obj: Triangle indices: 54 49 51
+Loader: revision.obj: Triangle indices: 36 32 33
+Loader: revision.obj: Triangle indices: 59 49 54
+Loader: revision.obj: Triangle indices: 20 36 29
+Loader: revision.obj: Triangle indices: 59 53 49
+Loader: revision.obj: Triangle indices: 18 20 27
+Loader: revision.obj: Triangle indices: 55 53 59
+Loader: revision.obj: Triangle indices: 21 27 4
+Loader: revision.obj: Triangle indices: 55 43 53
+Loader: revision.obj: Triangle indices: 23 4 26
+Loader: revision.obj: Triangle indices: 57 43 55
+Loader: revision.obj: Triangle indices: 24 26 9
+Loader: revision.obj: Triangle indices: 57 14 43
+Loader: revision.obj: Triangle indices: 21 18 27
+Loader: revision.obj: Triangle indices: 43 14 41
+Loader: revision.obj: Triangle indices: 18 17 22
+Loader: revision.obj: Triangle indices: 14 44 41
+Loader: revision.obj: Triangle indices: 21 17 18
+Loader: revision.obj: Triangle indices: 57 16 14
+Loader: revision.obj: Triangle indices: 19 21 4
+Loader: revision.obj: Triangle indices: 15 44 14
+Loader: revision.obj: Triangle indices: 23 19 4
+Loader: revision.obj: Triangle indices: 15 42 44
+Loader: revision.obj: Triangle indices: 6 23 26
+Loader: revision.obj: Triangle indices: 3 42 15
+Loader: revision.obj: Triangle indices: 25 9 11
+Loader: revision.obj: Triangle indices: 3 46 42
+Loader: revision.obj: Triangle indices: 24 6 26
+Loader: revision.obj: Triangle indices: 1 46 3
+Loader: revision.obj: Triangle indices: 2 11 7
+Loader: revision.obj: Triangle indices: 8 37 1
+Loader: revision.obj: Triangle indices: 25 24 9
+Loader: revision.obj: Triangle indices: 5 8 1
+Loader: revision.obj: Triangle indices: 5 7 12
+Loader: revision.obj: Triangle indices: 11 2 25
+Loader: revision.obj: Triangle indices: 12 8 5
+Loader: revision.obj: Triangle indices: 66 30 35
+Loader: revision.obj: Triangle indices: 34 70 66
+Loader: revision.obj: Triangle indices: 254 253 252
+Loader: revision.obj: Triangle indices: 266 245 267
+Loader: revision.obj: Triangle indices: 251 250 244
+Loader: revision.obj: Triangle indices: 251 265 252
+Loader: revision.obj: Triangle indices: 285 312 266
+Loader: revision.obj: Triangle indices: 250 251 252
+Loader: revision.obj: Triangle indices: 260 285 266
+Loader: revision.obj: Triangle indices: 244 246 251
+Loader: revision.obj: Triangle indices: 266 246 245
+Loader: revision.obj: Triangle indices: 260 261 259
+Loader: revision.obj: Triangle indices: 279 268 300
+Loader: revision.obj: Triangle indices: 287 286 288
+Loader: revision.obj: Triangle indices: 263 295 264
+Loader: revision.obj: Triangle indices: 299 262 305
+Loader: revision.obj: Triangle indices: 257 256 311
+Loader: revision.obj: Triangle indices: 257 278 277
+Loader: revision.obj: Triangle indices: 309 314 313
+Loader: revision.obj: Triangle indices: 248 247 269
+Loader: revision.obj: Triangle indices: 270 308 306
+Loader: revision.obj: Triangle indices: 280 301 298
+Loader: revision.obj: Triangle indices: 293 281 289
+Loader: revision.obj: Triangle indices: 275 274 271
+Loader: revision.obj: Triangle indices: 254 258 253
+Loader: revision.obj: Triangle indices: 258 254 272
+Loader: revision.obj: Triangle indices: 272 276 275
+Loader: revision.obj: Triangle indices: 293 297 296
+Loader: revision.obj: Triangle indices: 274 275 273
+Loader: revision.obj: Triangle indices: 271 258 272
+Loader: revision.obj: Triangle indices: 273 289 274
+Loader: revision.obj: Triangle indices: 304 306 301
+Loader: revision.obj: Triangle indices: 249 313 247
+Loader: revision.obj: Triangle indices: 257 311 278
+Loader: revision.obj: Triangle indices: 263 264 262
+Loader: revision.obj: Triangle indices: 279 300 286
+Loader: revision.obj: Triangle indices: 266 267 261
+Loader: revision.obj: Triangle indices: 260 284 285
+Loader: revision.obj: Triangle indices: 245 246 244
+Loader: revision.obj: Triangle indices: 275 271 272
+Loader: revision.obj: Triangle indices: 260 266 261
+Loader: revision.obj: Triangle indices: 293 289 273
+Loader: revision.obj: Triangle indices: 268 260 259
+Loader: revision.obj: Triangle indices: 273 297 293
+Loader: revision.obj: Triangle indices: 279 283 260
+Loader: revision.obj: Triangle indices: 282 281 293
+Loader: revision.obj: Triangle indices: 279 260 268
+Loader: revision.obj: Triangle indices: 280 281 282
+Loader: revision.obj: Triangle indices: 287 279 286
+Loader: revision.obj: Triangle indices: 280 282 290
+Loader: revision.obj: Triangle indices: 292 288 295
+Loader: revision.obj: Triangle indices: 298 281 280
+Loader: revision.obj: Triangle indices: 292 287 288
+Loader: revision.obj: Triangle indices: 301 280 304
+Loader: revision.obj: Triangle indices: 292 291 287
+Loader: revision.obj: Triangle indices: 270 306 304
+Loader: revision.obj: Triangle indices: 263 292 295
+Loader: revision.obj: Triangle indices: 269 308 270
+Loader: revision.obj: Triangle indices: 299 263 262
+Loader: revision.obj: Triangle indices: 269 270 248
+Loader: revision.obj: Triangle indices: 299 305 256
+Loader: revision.obj: Triangle indices: 247 248 249
+Loader: revision.obj: Triangle indices: 302 299 256
+Loader: revision.obj: Triangle indices: 309 313 249
+Loader: revision.obj: Triangle indices: 309 310 294
+Loader: revision.obj: Triangle indices: 277 314 309
+Loader: revision.obj: Triangle indices: 302 303 299
+Loader: revision.obj: Triangle indices: 257 307 255
+Loader: revision.obj: Triangle indices: 277 309 294
+Loader: revision.obj: Triangle indices: 256 255 302
+Loader: revision.obj: Triangle indices: 277 294 257
+Loader: revision.obj: Triangle indices: 165 164 170
+Loader: revision.obj: Triangle indices: 107 73 74
+Loader: revision.obj: Triangle indices: 105 103 72
+Loader: revision.obj: Triangle indices: 133 101 102
+Loader: revision.obj: Triangle indices: 131 99 100
+Loader: revision.obj: Triangle indices: 130 97 98
+Loader: revision.obj: Triangle indices: 127 95 96
+Loader: revision.obj: Triangle indices: 126 93 94
+Loader: revision.obj: Triangle indices: 121 91 92
+Loader: revision.obj: Triangle indices: 121 89 90
+Loader: revision.obj: Triangle indices: 118 87 88
+Loader: revision.obj: Triangle indices: 116 85 86
+Loader: revision.obj: Triangle indices: 115 83 84
+Loader: revision.obj: Triangle indices: 113 81 82
+Loader: revision.obj: Triangle indices: 110 79 80
+Loader: revision.obj: Triangle indices: 110 108 142
+Loader: revision.obj: Triangle indices: 113 112 111
+Loader: revision.obj: Triangle indices: 110 109 108
+Loader: revision.obj: Triangle indices: 80 111 110
+Loader: revision.obj: Triangle indices: 120 119 118
+Loader: revision.obj: Triangle indices: 79 110 142
+Loader: revision.obj: Triangle indices: 89 120 118
+Loader: revision.obj: Triangle indices: 113 111 80
+Loader: revision.obj: Triangle indices: 123 122 121
+Loader: revision.obj: Triangle indices: 81 113 80
+Loader: revision.obj: Triangle indices: 92 123 121
+Loader: revision.obj: Triangle indices: 114 113 82
+Loader: revision.obj: Triangle indices: 92 124 123
+Loader: revision.obj: Triangle indices: 83 114 82
+Loader: revision.obj: Triangle indices: 126 125 124
+Loader: revision.obj: Triangle indices: 83 115 114
+Loader: revision.obj: Triangle indices: 130 129 128
+Loader: revision.obj: Triangle indices: 85 115 84
+Loader: revision.obj: Triangle indices: 96 128 127
+Loader: revision.obj: Triangle indices: 85 116 115
+Loader: revision.obj: Triangle indices: 133 132 131
+Loader: revision.obj: Triangle indices: 117 116 86
+Loader: revision.obj: Triangle indices: 135 134 133
+Loader: revision.obj: Triangle indices: 87 117 86
+Loader: revision.obj: Triangle indices: 105 135 133
+Loader: revision.obj: Triangle indices: 118 117 87
+Loader: revision.obj: Triangle indices: 105 104 135
+Loader: revision.obj: Triangle indices: 89 118 88
+Loader: revision.obj: Triangle indices: 100 133 131
+Loader: revision.obj: Triangle indices: 89 121 120
+Loader: revision.obj: Triangle indices: 137 139 107
+Loader: revision.obj: Triangle indices: 91 121 90
+Loader: revision.obj: Triangle indices: 73 107 106
+Loader: revision.obj: Triangle indices: 126 124 92
+Loader: revision.obj: Triangle indices: 72 106 105
+Loader: revision.obj: Triangle indices: 93 126 92
+Loader: revision.obj: Triangle indices: 76 136 141
+Loader: revision.obj: Triangle indices: 94 127 126
+Loader: revision.obj: Triangle indices: 75 141 137
+Loader: revision.obj: Triangle indices: 95 127 94
+Loader: revision.obj: Triangle indices: 75 76 141
+Loader: revision.obj: Triangle indices: 97 128 96
+Loader: revision.obj: Triangle indices: 74 137 107
+Loader: revision.obj: Triangle indices: 97 130 128
+Loader: revision.obj: Triangle indices: 74 75 137
+Loader: revision.obj: Triangle indices: 131 130 98
+Loader: revision.obj: Triangle indices: 102 105 133
+Loader: revision.obj: Triangle indices: 106 72 73
+Loader: revision.obj: Triangle indices: 133 100 101
+Loader: revision.obj: Triangle indices: 99 131 98
+Loader: revision.obj: Triangle indices: 337 336 335
+Loader: revision.obj: Triangle indices: 327 337 325
+Loader: revision.obj: Triangle indices: 331 335 333
+Loader: revision.obj: Triangle indices: 327 336 337
+Loader: revision.obj: Triangle indices: 334 331 333
+Loader: revision.obj: Triangle indices: 340 339 336
+Loader: revision.obj: Triangle indices: 321 331 334
+Loader: revision.obj: Triangle indices: 326 325 338
+Loader: revision.obj: Triangle indices: 321 322 331
+Loader: revision.obj: Triangle indices: 327 342 336
+Loader: revision.obj: Triangle indices: 315 322 321
+Loader: revision.obj: Triangle indices: 336 342 340
+Loader: revision.obj: Triangle indices: 317 322 315
+Loader: revision.obj: Triangle indices: 327 344 341
+Loader: revision.obj: Triangle indices: 316 317 315
+Loader: revision.obj: Triangle indices: 327 341 342
+Loader: revision.obj: Triangle indices: 323 317 316
+Loader: revision.obj: Triangle indices: 326 327 325
+Loader: revision.obj: Triangle indices: 323 324 317
+Loader: revision.obj: Triangle indices: 318 338 319
+Loader: revision.obj: Triangle indices: 328 324 323
+Loader: revision.obj: Triangle indices: 343 326 338
+Loader: revision.obj: Triangle indices: 329 324 328
+Loader: revision.obj: Triangle indices: 332 319 329
+Loader: revision.obj: Triangle indices: 338 318 343
+Loader: revision.obj: Triangle indices: 319 332 320
+Loader: revision.obj: Triangle indices: 329 328 330
+Loader: revision.obj: Triangle indices: 320 318 319
+Loader: revision.obj: Triangle indices: 149 148 339
+Loader: revision.obj: Triangle indices: 247 86 269
+Loader: revision.obj: Triangle indices: 51 49 215
+Loader: revision.obj: Triangle indices: 112 113 290
+Loader: revision.obj: Triangle indices: 139 137 265
+Loader: revision.obj: Triangle indices: 73 72 244
+Loader: revision.obj: Triangle indices: 11 9 212
+Loader: revision.obj: Triangle indices: 162 163 335
+Loader: revision.obj: Triangle indices: 100 99 268
+Loader: revision.obj: Triangle indices: 38 37 188
+Loader: revision.obj: Triangle indices: 126 127 299
+Loader: revision.obj: Triangle indices: 65 67 178
+Loader: revision.obj: Triangle indices: 150 149 340
+Loader: revision.obj: Triangle indices: 87 86 313
+Loader: revision.obj: Triangle indices: 113 114 280
+Loader: revision.obj: Triangle indices: 52 47 224
+Loader: revision.obj: Triangle indices: 140 138 276
+Loader: revision.obj: Triangle indices: 250 74 244
+Loader: revision.obj: Triangle indices: 12 7 202
+Loader: revision.obj: Triangle indices: 163 164 337
+Loader: revision.obj: Triangle indices: 259 101 268
+Loader: revision.obj: Triangle indices: 39 8 203
+Loader: revision.obj: Triangle indices: 187 66 177
+Loader: revision.obj: Triangle indices: 127 128 263
+Loader: revision.obj: Triangle indices: 172 150 342
+Loader: revision.obj: Triangle indices: 314 88 313
+Loader: revision.obj: Triangle indices: 25 2 218
+Loader: revision.obj: Triangle indices: 114 115 304
+Loader: revision.obj: Triangle indices: 210 53 199
+Loader: revision.obj: Triangle indices: 141 136 254
+Loader: revision.obj: Triangle indices: 75 74 253
+Loader: revision.obj: Triangle indices: 13 26 226
+Loader: revision.obj: Triangle indices: 164 165 325
+Loader: revision.obj: Triangle indices: 102 101 261
+Loader: revision.obj: Triangle indices: 40 44 196
+Loader: revision.obj: Triangle indices: 128 129 292
+Loader: revision.obj: Triangle indices: 67 62 204
+Loader: revision.obj: Triangle indices: 152 151 344
+Loader: revision.obj: Triangle indices: 89 88 277
+Loader: revision.obj: Triangle indices: 26 4 227
+Loader: revision.obj: Triangle indices: 115 116 270
+Loader: revision.obj: Triangle indices: 54 58 216
+Loader: revision.obj: Triangle indices: 14 16 182
+Loader: revision.obj: Triangle indices: 273 142 297
+Loader: revision.obj: Triangle indices: 76 75 258
+Loader: revision.obj: Triangle indices: 338 165 319
+Loader: revision.obj: Triangle indices: 103 102 267
+Loader: revision.obj: Triangle indices: 41 45 197
+Loader: revision.obj: Triangle indices: 129 130 291
+Loader: revision.obj: Triangle indices: 68 70 176
+Loader: revision.obj: Triangle indices: 1 3 181
+Loader: revision.obj: Triangle indices: 153 152 327
+Loader: revision.obj: Triangle indices: 90 89 278
+Loader: revision.obj: Triangle indices: 27 29 211
+Loader: revision.obj: Triangle indices: 248 116 249
+Loader: revision.obj: Triangle indices: 55 59 198
+Loader: revision.obj: Triangle indices: 77 76 271
+Loader: revision.obj: Triangle indices: 15 14 173
+Loader: revision.obj: Triangle indices: 319 166 329
+Loader: revision.obj: Triangle indices: 72 103 245
+Loader: revision.obj: Triangle indices: 42 46 174
+Loader: revision.obj: Triangle indices: 130 131 287
+Loader: revision.obj: Triangle indices: 229 69 176
+Loader: revision.obj: Triangle indices: 213 2 200
+Loader: revision.obj: Triangle indices: 170 153 326
+Loader: revision.obj: Triangle indices: 91 90 311
+Loader: revision.obj: Triangle indices: 28 27 232
+Loader: revision.obj: Triangle indices: 117 118 249
+Loader: revision.obj: Triangle indices: 56 60 214
+Loader: revision.obj: Triangle indices: 78 77 274
+Loader: revision.obj: Triangle indices: 16 57 183
+Loader: revision.obj: Triangle indices: 167 168 329
+Loader: revision.obj: Triangle indices: 104 105 312
+Loader: revision.obj: Triangle indices: 199 43 197
+Loader: revision.obj: Triangle indices: 131 132 279
+Loader: revision.obj: Triangle indices: 177 71 178
+Loader: revision.obj: Triangle indices: 231 4 232
+Loader: revision.obj: Triangle indices: 155 154 332
+Loader: revision.obj: Triangle indices: 92 91 256
+Loader: revision.obj: Triangle indices: 29 33 195
+Loader: revision.obj: Triangle indices: 309 118 310
+Loader: revision.obj: Triangle indices: 57 55 184
+Loader: revision.obj: Triangle indices: 79 78 289
+Loader: revision.obj: Triangle indices: 17 21 190
+Loader: revision.obj: Triangle indices: 168 159 324
+Loader: revision.obj: Triangle indices: 266 105 246
+Loader: revision.obj: Triangle indices: 192 44 174
+Loader: revision.obj: Triangle indices: 132 133 283
+Loader: revision.obj: Triangle indices: 30 66 239
+Loader: revision.obj: Triangle indices: 175 3 173
+Loader: revision.obj: Triangle indices: 330 156 332
+Loader: revision.obj: Triangle indices: 305 93 256
+Loader: revision.obj: Triangle indices: 241 31 238
+Loader: revision.obj: Triangle indices: 119 120 310
+Loader: revision.obj: Triangle indices: 58 56 219
+Loader: revision.obj: Triangle indices: 80 79 281
+Loader: revision.obj: Triangle indices: 189 18 242
+Loader: revision.obj: Triangle indices: 318 171 343
+Loader: revision.obj: Triangle indices: 106 107 246
+Loader: revision.obj: Triangle indices: 45 40 208
+Loader: revision.obj: Triangle indices: 133 134 260
+Loader: revision.obj: Triangle indices: 185 70 186
+Loader: revision.obj: Triangle indices: 200 5 181
+Loader: revision.obj: Triangle indices: 157 156 328
+Loader: revision.obj: Triangle indices: 94 93 262
+Loader: revision.obj: Triangle indices: 32 36 243
+Loader: revision.obj: Triangle indices: 59 54 209
+Loader: revision.obj: Triangle indices: 294 120 257
+Loader: revision.obj: Triangle indices: 144 143 315
+Loader: revision.obj: Triangle indices: 81 80 298
+Loader: revision.obj: Triangle indices: 19 23 237
+Loader: revision.obj: Triangle indices: 169 170 343
+Loader: revision.obj: Triangle indices: 107 139 251
+Loader: revision.obj: Triangle indices: 46 38 179
+Loader: revision.obj: Triangle indices: 134 135 284
+Loader: revision.obj: Triangle indices: 233 6 225
+Loader: revision.obj: Triangle indices: 158 157 323
+Loader: revision.obj: Triangle indices: 95 94 264
+Loader: revision.obj: Triangle indices: 33 31 240
+Loader: revision.obj: Triangle indices: 257 121 307
+Loader: revision.obj: Triangle indices: 230 60 234
+Loader: revision.obj: Triangle indices: 145 144 321
+Loader: revision.obj: Triangle indices: 301 82 298
+Loader: revision.obj: Triangle indices: 20 18 194
+Loader: revision.obj: Triangle indices: 154 171 320
+Loader: revision.obj: Triangle indices: 297 108 296
+Loader: revision.obj: Triangle indices: 47 51 221
+Loader: revision.obj: Triangle indices: 285 135 312
+Loader: revision.obj: Triangle indices: 7 11 207
+Loader: revision.obj: Triangle indices: 143 158 316
+Loader: revision.obj: Triangle indices: 96 95 295
+Loader: revision.obj: Triangle indices: 34 32 186
+Loader: revision.obj: Triangle indices: 122 123 307
+Loader: revision.obj: Triangle indices: 61 63 236
+Loader: revision.obj: Triangle indices: 146 145 334
+Loader: revision.obj: Triangle indices: 83 82 306
+Loader: revision.obj: Triangle indices: 21 19 191
+Loader: revision.obj: Triangle indices: 151 172 341
+Loader: revision.obj: Triangle indices: 109 110 296
+Loader: revision.obj: Triangle indices: 48 52 223
+Loader: revision.obj: Triangle indices: 136 140 272
+Loader: revision.obj: Triangle indices: 8 12 201
+Loader: revision.obj: Triangle indices: 159 160 317
+Loader: revision.obj: Triangle indices: 97 96 288
+Loader: revision.obj: Triangle indices: 238 35 239
+Loader: revision.obj: Triangle indices: 123 124 255
+Loader: revision.obj: Triangle indices: 62 61 205
+Loader: revision.obj: Triangle indices: 147 146 333
+Loader: revision.obj: Triangle indices: 84 83 308
+Loader: revision.obj: Triangle indices: 22 17 242
+Loader: revision.obj: Triangle indices: 293 110 282
+Loader: revision.obj: Triangle indices: 49 53 217
+Loader: revision.obj: Triangle indices: 137 141 252
+Loader: revision.obj: Triangle indices: 9 13 220
+Loader: revision.obj: Triangle indices: 160 161 322
+Loader: revision.obj: Triangle indices: 98 97 286
+Loader: revision.obj: Triangle indices: 36 20 193
+Loader: revision.obj: Triangle indices: 124 125 302
+Loader: revision.obj: Triangle indices: 63 50 206
+Loader: revision.obj: Triangle indices: 336 148 333
+Loader: revision.obj: Triangle indices: 85 84 269
+Loader: revision.obj: Triangle indices: 23 6 235
+Loader: revision.obj: Triangle indices: 282 111 290
+Loader: revision.obj: Triangle indices: 50 48 222
+Loader: revision.obj: Triangle indices: 275 138 273
+Loader: revision.obj: Triangle indices: 10 69 228
+Loader: revision.obj: Triangle indices: 161 162 331
+Loader: revision.obj: Triangle indices: 99 98 300
+Loader: revision.obj: Triangle indices: 37 39 180
+Loader: revision.obj: Triangle indices: 125 126 303
+Loader: revision.obj: Triangle indices: 64 10 234
+Loader: revision.obj: Unrecognized: 
+Loader: htorus.obj: Unrecognized: o Torus
+Loader: htorus.obj: Vertex: 1.25 0 0
+Loader: htorus.obj: Vertex: 1.125 0.216506 0
+Loader: htorus.obj: Vertex: 0.875 0.216506 0
+Loader: htorus.obj: Vertex: 0.75 0 0
+Loader: htorus.obj: Vertex: 0.875 -0.216506 0
+Loader: htorus.obj: Vertex: 1.125 -0.216506 0
+Loader: htorus.obj: Vertex: 0.625 0 -1.08253
+Loader: htorus.obj: Vertex: 0.5625 0.216506 -0.974279
+Loader: htorus.obj: Vertex: 0.4375 0.216506 -0.757772
+Loader: htorus.obj: Vertex: 0.375 0 -0.649519
+Loader: htorus.obj: Vertex: 0.4375 -0.216506 -0.757772
+Loader: htorus.obj: Vertex: 0.5625 -0.216506 -0.974279
+Loader: htorus.obj: Vertex: -0.625 0 -1.08253
+Loader: htorus.obj: Vertex: -0.5625 0.216506 -0.974279
+Loader: htorus.obj: Vertex: -0.4375 0.216506 -0.757772
+Loader: htorus.obj: Vertex: -0.375 0 -0.649519
+Loader: htorus.obj: Vertex: -0.4375 -0.216506 -0.757772
+Loader: htorus.obj: Vertex: -0.5625 -0.216506 -0.974279
+Loader: htorus.obj: Vertex: -1.25 0 -0
+Loader: htorus.obj: Vertex: -1.125 0.216506 -0
+Loader: htorus.obj: Vertex: -0.875 0.216506 -0
+Loader: htorus.obj: Vertex: -0.75 0 -0
+Loader: htorus.obj: Vertex: -0.875 -0.216506 -0
+Loader: htorus.obj: Vertex: -1.125 -0.216506 -0
+Loader: htorus.obj: Vertex: -0.625 0 1.08253
+Loader: htorus.obj: Vertex: -0.5625 0.216506 0.974279
+Loader: htorus.obj: Vertex: -0.4375 0.216506 0.757772
+Loader: htorus.obj: Vertex: -0.375 0 0.649519
+Loader: htorus.obj: Vertex: -0.4375 -0.216506 0.757772
+Loader: htorus.obj: Vertex: -0.5625 -0.216506 0.974279
+Loader: htorus.obj: Vertex: 0.625 0 1.08253
+Loader: htorus.obj: Vertex: 0.5625 0.216506 0.974279
+Loader: htorus.obj: Vertex: 0.4375 0.216506 0.757772
+Loader: htorus.obj: Vertex: 0.375 0 0.649519
+Loader: htorus.obj: Vertex: 0.4375 -0.216506 0.757772
+Loader: htorus.obj: Vertex: 0.5625 -0.216506 0.974279
+Loader: htorus.obj: Unrecognized: s off
+Loader: htorus.obj: Triangle indices: 1 7 8
+Loader: htorus.obj: Triangle indices: 8 9 3
+Loader: htorus.obj: Triangle indices: 9 10 4
+Loader: htorus.obj: Triangle indices: 10 11 5
+Loader: htorus.obj: Triangle indices: 5 11 12
+Loader: htorus.obj: Triangle indices: 6 12 7
+Loader: htorus.obj: Triangle indices: 7 13 14
+Loader: htorus.obj: Triangle indices: 14 15 9
+Loader: htorus.obj: Triangle indices: 15 16 10
+Loader: htorus.obj: Triangle indices: 16 17 11
+Loader: htorus.obj: Triangle indices: 11 17 18
+Loader: htorus.obj: Triangle indices: 18 13 7
+Loader: htorus.obj: Triangle indices: 13 19 20
+Loader: htorus.obj: Triangle indices: 14 20 21
+Loader: htorus.obj: Triangle indices: 21 22 16
+Loader: htorus.obj: Triangle indices: 22 23 17
+Loader: htorus.obj: Triangle indices: 23 24 18
+Loader: htorus.obj: Triangle indices: 24 19 13
+Loader: htorus.obj: Triangle indices: 25 26 20
+Loader: htorus.obj: Triangle indices: 26 27 21
+Loader: htorus.obj: Triangle indices: 21 27 28
+Loader: htorus.obj: Triangle indices: 28 29 23
+Loader: htorus.obj: Triangle indices: 29 30 24
+Loader: htorus.obj: Triangle indices: 30 25 19
+Loader: htorus.obj: Triangle indices: 31 32 26
+Loader: htorus.obj: Triangle indices: 26 32 33
+Loader: htorus.obj: Triangle indices: 33 34 28
+Loader: htorus.obj: Triangle indices: 34 35 29
+Loader: htorus.obj: Triangle indices: 35 36 30
+Loader: htorus.obj: Triangle indices: 36 31 25
+Loader: htorus.obj: Triangle indices: 31 1 2
+Loader: htorus.obj: Triangle indices: 2 3 33
+Loader: htorus.obj: Triangle indices: 33 3 4
+Loader: htorus.obj: Triangle indices: 4 5 35
+Loader: htorus.obj: Triangle indices: 5 6 36
+Loader: htorus.obj: Triangle indices: 6 1 31
+Loader: htorus.obj: Triangle indices: 2 1 8
+Loader: htorus.obj: Triangle indices: 2 8 3
+Loader: htorus.obj: Triangle indices: 3 9 4
+Loader: htorus.obj: Triangle indices: 4 10 5
+Loader: htorus.obj: Triangle indices: 6 5 12
+Loader: htorus.obj: Triangle indices: 1 6 7
+Loader: htorus.obj: Triangle indices: 8 7 14
+Loader: htorus.obj: Triangle indices: 8 14 9
+Loader: htorus.obj: Triangle indices: 9 15 10
+Loader: htorus.obj: Triangle indices: 10 16 11
+Loader: htorus.obj: Triangle indices: 12 11 18
+Loader: htorus.obj: Triangle indices: 12 18 7
+Loader: htorus.obj: Triangle indices: 14 13 20
+Loader: htorus.obj: Triangle indices: 15 14 21
+Loader: htorus.obj: Triangle indices: 15 21 16
+Loader: htorus.obj: Triangle indices: 16 22 17
+Loader: htorus.obj: Triangle indices: 17 23 18
+Loader: htorus.obj: Triangle indices: 18 24 13
+Loader: htorus.obj: Triangle indices: 19 25 20
+Loader: htorus.obj: Triangle indices: 20 26 21
+Loader: htorus.obj: Triangle indices: 22 21 28
+Loader: htorus.obj: Triangle indices: 22 28 23
+Loader: htorus.obj: Triangle indices: 23 29 24
+Loader: htorus.obj: Triangle indices: 24 30 19
+Loader: htorus.obj: Triangle indices: 25 31 26
+Loader: htorus.obj: Triangle indices: 27 26 33
+Loader: htorus.obj: Triangle indices: 27 33 28
+Loader: htorus.obj: Triangle indices: 28 34 29
+Loader: htorus.obj: Triangle indices: 29 35 30
+Loader: htorus.obj: Triangle indices: 30 36 25
+Loader: htorus.obj: Triangle indices: 32 31 2
+Loader: htorus.obj: Triangle indices: 32 2 33
+Loader: htorus.obj: Triangle indices: 34 33 4
+Loader: htorus.obj: Triangle indices: 34 4 35
+Loader: htorus.obj: Triangle indices: 35 5 36
+Loader: htorus.obj: Triangle indices: 36 6 31
+Loader: htorus.obj: Unrecognized: 
+Loader: cube_tex.obj: Vertex: -1 -1 -1
+Loader: cube_tex.obj: Vertex: -1 1 -1
+Loader: cube_tex.obj: Vertex: 1 1 -1
+Loader: cube_tex.obj: Vertex: 1 -1 -1
+Loader: cube_tex.obj: Vertex: -1 -1 1
+Loader: cube_tex.obj: Vertex: -1 1 1
+Loader: cube_tex.obj: Vertex: 1 1 1
+Loader: cube_tex.obj: Vertex: 1 -1 1
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Texture coord: 0 0 0
+Loader: cube_tex.obj: Texture coord: 0 1 0
+Loader: cube_tex.obj: Texture coord: 1 1 0
+Loader: cube_tex.obj: Texture coord: 1 0 0
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Normal: -1 -1 1
+Loader: cube_tex.obj: Normal: -1 1 1
+Loader: cube_tex.obj: Normal: 1 1 1
+Loader: cube_tex.obj: Normal: 1 -1 1
+Loader: cube_tex.obj: Normal: -1 -1 -1
+Loader: cube_tex.obj: Normal: -1 1 -1
+Loader: cube_tex.obj: Normal: 1 1 1
+Loader: cube_tex.obj: Normal: 1 -1 1
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 1 2 3 / 1 2 3 / 1 2 3
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 3 4 1 / 3 4 1 / 3 4 1
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 5 7 8 / 4 2 1 / 5 7 8
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 5 6 7 / 4 3 2 / 5 6 7
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 3 4 7 / 2 1 3 / 3 4 7
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 7 4 8 / 3 1 4 / 7 4 8
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 2 3 6 / 1 4 2 / 2 3 6
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 6 3 7 / 2 4 3 / 6 3 7
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 1 4 5 / 2 3 1 / 1 4 5
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 4 5 8 / 3 1 4 / 4 5 8
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 1 2 6 / 4 3 2 / 1 2 6
+Loader: cube_tex.obj: Triangle indices, texture coord indices and normal indices: 1 6 5 / 4 2 1 / 1 6 5
+Loader: cube_tex.obj: Unrecognized: 
+Loader: cube_tex.obj: Unrecognized: 
