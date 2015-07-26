@@ -17,6 +17,7 @@ This file is part of Low Quality is the Future.
 */
 
 #include "particle.hpp"
+#include <iostream>
 
 Particle::Particle(CommonData* icommon, float x, float y, float z, float dx, float dy, float dz, float ax, float ay, float az) {
     common = icommon;
@@ -36,5 +37,8 @@ GLfloat* Particle::tick() {
         dirs[i] += accels[i]*common->deltat;
     for (int i=0; i<3; i++)
         coords[i] += dirs[i]*common->deltat;
+    //std::cout << "X: " << coords[0] << std::endl;
+    //std::cout << "Y: " << coords[1] << std::endl;
+    //std::cout << "Z: " << coords[2] << std::endl;
     return coords;
 }

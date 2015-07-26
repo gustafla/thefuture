@@ -34,6 +34,7 @@ This file is part of Low Quality is the Future.
 #include "demo_timing.hpp"
 
 #include "parts/logo.hpp"
+#include "parts/1.hpp"
 /*
  * Demo player thread function
  */
@@ -86,6 +87,7 @@ void* playDemo(void* arg) {
 
     //demo parts
     PLogo p0(&common);
+    P1    p1(&common);
     Fade*      fade;
     
     //Start the music player thread
@@ -138,19 +140,32 @@ void* playDemo(void* arg) {
             gfxBindFB0();
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        switch (part) { //Demo in a switch :)
+        switch (part) {
 			case 0: //INTRO
                 doPP = true;
-				p0.draw();
-				/*if (t-tLoopStart > tPartStart+PART_TIMES[part]){ //30.0
-                    fade = new Fade(&common, PART_TIMES[part+1], FADE_BLACK_OUT_GLITCHED);
-                    partIntro.draw(fade); //Hackish... But works :/
+				p0.draw(pp.getFramebufferHandle());
+				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
+                    fade = new Fade(&common, PART_TIMES[part+1], FADE_MIX);
 					part++;
 					tPartStart = t-tLoopStart;
-                    doPP = false;
-                    gfxBindFB0();
-				}*/
+				}
 				break;
+            case 1: //FADE
+                doPP = true;
+                p0.draw(fade->getPP(0));
+                p1.draw(fade->getPP(1));
+                pp.bindFramebuffer();
+                fade->draw();
+				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
+                    delete fade;
+					part++;
+					tPartStart = t-tLoopStart;
+				}
+                break;
+            case 2: //NOT SURE YET
+                doPP = true;
+                p1.draw(pp.getFramebufferHandle());
+                break;
 			default:
                 if (c.audio)
                     exit(0);

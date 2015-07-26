@@ -18,7 +18,8 @@ This file is part of Low Quality is the Future.
 
 #include "fade.hpp"
 
-Fade::Fade(CommonData* icommon, float s, FadeType type) {
+Fade::Fade(CommonData* icommon, float s, FadeType type):
+texture2(NULL) {
     if (type == FADE_BLACK_OUT)
         fader = new GfxPostProcessor(icommon, "shaders/fadetoblack_post.frag", GL_LINEAR, 1.0, GL_REPEAT);
     else if (type == FADE_WHITE_OUT)
@@ -29,6 +30,18 @@ Fade::Fade(CommonData* icommon, float s, FadeType type) {
         fader = new GfxPostProcessor(icommon, "shaders/fadefromblack_post.frag", GL_LINEAR, 1.0, GL_REPEAT);
     else if (type == FADE_WHITE_IN)
         fader = new GfxPostProcessor(icommon, "shaders/fadefromwhite_post.frag", GL_LINEAR, 1.0, GL_REPEAT);
+    else if (type == FADE_MIX) {
+        fader = new GfxPostProcessor(icommon, "shaders/fademix_post.frag", GL_NEAREST, 1.0, GL_REPEAT);
+        glGenFramebuffers(1, &frameBuffer2);
+        glBindFramebuffer(GL_FRAMEBUFFER, frameBuffer2);
+        texture2 = new GfxTexture2D(NULL, icommon->res[0], icommon->res[1], GL_RGB, GL_NEAREST, GL_REPEAT);
+        glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, texture2->getHandle(), 0);
+        glGenRenderbuffers(1, &renderBuffer2);
+        glBindRenderbuffer(GL_RENDERBUFFER, renderBuffer2);
+        glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT16, icommon->res[0], icommon->res[1]);
+        glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, renderBuffer2);
+        fader->takeTexture(texture2, "iChannel1");
+    }
     glUseProgram(fader->getShader()->getHandle());
     glUniform1f(fader->getShader()->getUfmHandle("tmult"), (1.0/s));
     glUniform1f(fader->getShader()->getUfmHandle("tstart"), icommon->t);
@@ -36,14 +49,28 @@ Fade::Fade(CommonData* icommon, float s, FadeType type) {
 
 Fade::~Fade() {
     delete fader;
+    if (texture2) {
+        delete texture2;
+        glDeleteRenderbuffers(1, &renderBuffer2);
+        glDeleteFramebuffers(1, &frameBuffer2);
+    }
 }
 
 void Fade::draw() {
-    //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     fader->draw();
 }
 
-void Fade::bindFramebuffer() {
-    fader->bindFramebuffer();
-    glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
+void Fade::bindFramebuffer(int n) {
+    if (n == 1)
+        glBindFramebuffer(GL_FRAMEBUFFER, frameBuffer2);
+    else
+        fader->bindFramebuffer();
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+}
+
+GLuint Fade::getPP(int n) {
+    if (n == 1)
+        return frameBuffer2;
+    else
+        return fader->getFramebufferHandle();
 }

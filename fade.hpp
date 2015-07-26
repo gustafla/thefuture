@@ -22,16 +22,21 @@ This file is part of Low Quality is the Future.
 #include "gfx_postprocessor.hpp"
 #include "common.hpp"
 
-enum FadeType {FADE_BLACK_IN, FADE_BLACK_OUT, FADE_BLACK_OUT_GLITCHED, FADE_WHITE_IN, FADE_WHITE_OUT};
+enum FadeType {FADE_BLACK_IN, FADE_BLACK_OUT, FADE_BLACK_OUT_GLITCHED, FADE_WHITE_IN, FADE_WHITE_OUT, FADE_MIX};
 
 class Fade {
     public:
         Fade(CommonData* icommon, float time=1.0, FadeType type=FADE_BLACK_OUT);
         ~Fade();
         void draw();
-        void bindFramebuffer();
+        void bindFramebuffer(int n=0);
+        GLuint getPP(int n=0);
     private:
         GfxPostProcessor* fader;
+
+        GLuint frameBuffer2;
+        GLuint renderBuffer2;
+        GfxTexture2D* texture2;
 };
 
 #endif

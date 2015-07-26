@@ -32,8 +32,8 @@ shaderProgram("shaders/simple_texpos.vert", fs) {
     glUseProgram(shaderProgram.getHandle());
 
     GLfloat res[2] = {
-        float(w),
-        float(h)
+        float(w)/c,
+        float(h)/c
     };
 
     //Set miscellanous shader uniform pointers
@@ -93,10 +93,10 @@ void GfxScreenMovable::draw(float st) {
     //IT'S CRUCIAL TO CALL UNIFORM AND ATTRIBUTE UPDATES ON EVERY FRAME, EVEN IF IT WAS THE POINTER VARIANT "...v(*)"!
 
     //Drawing happens here
-    glVertexAttribPointer(shaderProgram.getAtrHandle("a_vertex"), 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat)*4, &vertices[0]);
-    glVertexAttribPointer(shaderProgram.getAtrHandle("a_texpos"), 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat)*4, &vertices[2]);
     glEnableVertexAttribArray(shaderProgram.getAtrHandle("a_vertex"));
     glEnableVertexAttribArray(shaderProgram.getAtrHandle("a_texpos"));
+    glVertexAttribPointer(shaderProgram.getAtrHandle("a_vertex"), 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat)*4, &vertices[0]);
+    glVertexAttribPointer(shaderProgram.getAtrHandle("a_texpos"), 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat)*4, &vertices[2]);
 
     glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
 }

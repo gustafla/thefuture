@@ -2,7 +2,7 @@
 #include <cmath>
 
 #define C_DIST 0.11f
-#define C_SCALE 0.08f
+#define C_SCALE 0.05f
 
 Scroller::Scroller(CommonData* icommon, std::string itext, std::string fontname):
 text(itext),
@@ -188,8 +188,8 @@ void Scroller::draw() {
                 break;
         }
         //mvp.setModelTranslation(sin(i*C_DIST*6.0-common->t*3.0)*0.12-0.45, fmod((1.0f+length)-i*C_DIST+common->t*0.3f, 1.0f+length)-length);
-        float x = 1.0-common->t*0.3+i*C_DIST;
-        mvp.setModel(x, sin(x)*0.2, 0.0f, x, x*2.0, x*0.7, C_SCALE+sin(x*15.0)*0.017+0.017);
+        float x = 1.0-common->t*0.5+i*C_DIST;
+        mvp.setModel(x, sin(x*6.0-common->t)*0.1, 0.0f, x, x*4.0, x*1.3, C_SCALE+sin(x*6.0+1.0-common->t)*0.017+0.017);
         //mvp.buildModel();
         mvp.buildMVP();
         glUniformMatrix4fv(shader.getUfmHandle("mvp"), 1, GL_FALSE, mvp.mvp);

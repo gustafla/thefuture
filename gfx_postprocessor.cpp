@@ -23,7 +23,7 @@ This file is part of Low Quality is the Future.
 GfxPostProcessor::GfxPostProcessor(CommonData* icommon, std::string fs, uint32_t filter, float c, uint32_t wrap):
 common(icommon),
 texCount(0),
-shaderProgram("shaders/simple.vert", fs) {
+shaderProgram("shaders/simple_texpos.vert", fs) {
     glUseProgram(shaderProgram.getHandle());
     
     GLfloat res[2] = {
@@ -107,4 +107,8 @@ void GfxPostProcessor::takeTexture(GfxTexture2D* t, std::string name) {
     glUniform1i(shaderProgram.getUfmHandle(name), texCount+1);
     textures.push_back(t);
     texCount++;
+}
+
+GLuint GfxPostProcessor::getFramebufferHandle() {
+    return frameBuffer;
 }

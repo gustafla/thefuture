@@ -35,6 +35,7 @@ class GfxPostProcessor {
         GfxTexture2D* getTexture();
         GfxShader* getShader();
         void takeTexture(GfxTexture2D* t, std::string name);
+        GLuint getFramebufferHandle();
     private:
         CommonData* common;
         GfxShader shaderProgram;

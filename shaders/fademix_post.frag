@@ -16,12 +16,18 @@ This file is part of Low Quality is the Future.
     along with Low Quality is the Future, see COPYING. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "demo_timing.hpp"
-#include <cstdlib>
+precision highp float;
 
-float const PART_TIMES[] = {
-    30.0f,
-    1.2f,
-    20.0f
-};
-int const PARTS = sizeof(PART_TIMES)/sizeof(PART_TIMES[0]);
+uniform sampler2D iChannel0;
+uniform sampler2D iChannel1;
+varying vec2 texpos;
+uniform float iGlobalTime;
+uniform float tmult;
+uniform float tstart;
+
+void main() {
+    vec2 pos = texpos;
+    float t=iGlobalTime-tstart;
+    float tstretch=t*tmult;
+    gl_FragColor = vec4(mix(texture2D(iChannel0, pos).rgb, texture2D(iChannel1, pos).rgb, tstretch), 1.0);
+}

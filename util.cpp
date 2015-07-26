@@ -1,19 +1,19 @@
 // Copyright 2015 Lauri Gustafsson
 /*
-This file is part of Low Quality is the Future.
+This file is part of asmmehu.
 
-    Low Quality is the Future is free software: you can redistribute it and/or modify
+    asmmehu is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Low Quality is the Future is distributed in the hope that it will be useful,
+    asmmehu is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Low Quality is the Future, see COPYING. If not, see <http://www.gnu.org/licenses/>.
+    along with asmmehu, see COPYING. If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include <cstdlib>
@@ -107,4 +107,16 @@ int countSubstring(const std::string& str, const std::string& sub)
 
 float randf() {
     return ((float(rand()%100000)/100000.0f)-0.5)*2.0;
+}
+
+float max(float n, float m) {
+    return (n>m) ? n : m;
+}
+
+float min(float n, float m) {
+    return (n>m) ? m : n;
+}
+
+float clamp(float n, float a, float b) {
+    return ((n<a) ? a : ((n>b) ? b : n));
 }

@@ -5,6 +5,7 @@ precision highp float;
 uniform sampler2D iChannel0;
 uniform vec2 iResolution;
 uniform float iGlobalTime;
+varying vec2 texpos;
 
 float rand(vec2 co){
     return fract(sin(dot(co, vec2(12.9898, 78.233))) * 43758.5453);
@@ -12,9 +13,9 @@ float rand(vec2 co){
 
 void main() {
     vec2 center = vec2(0.5);
-    vec2 pos = gl_FragCoord.xy/iResolution.xy-center;
+    vec2 pos = texpos-center;
     vec3 sum;
-    for (int i=0; i<8; i++) {
+    for (int i=0; i<7; i++) {
         float x = 1.0+(float(i)/80.0);
         sum += texture2D(iChannel0, (pos/x)+center).rgb*(1.0/(float(i)*0.9+1.0));
     }
@@ -26,7 +27,7 @@ void main() {
 
     sum.b *= (mod(gl_FragCoord.y, 2.0));
 
-    sum -= max(length(pos)*0.07, 0.0);
+    sum -= max(length(pos)*0.4, 0.0);
     
     gl_FragColor = vec4(sum, 1.0);
 }
