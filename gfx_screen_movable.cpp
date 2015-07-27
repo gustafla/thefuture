@@ -204,3 +204,7 @@ GfxScreenMovable::~GfxScreenMovable() {
     if (iCount)
         delete i;
 }
+
+GfxShader* GfxScreenMovable::getShader() {
+    return &shaderProgram;
+}

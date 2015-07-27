@@ -9,7 +9,7 @@ shader("shaders/simple.vert", "shaders/color.frag"),
 shader2("shaders/mvp.vert", "shaders/color.frag"),
 pp(icommon, "shaders/sradblur_gain.frag"),
 objMehu(icommon->models->getModel("mehu.obj")),
-scroller(icommon, "     A NEW RASPI COMPOFILLER FROM MEHU, YAY! CLUTCHED TOGETHER IN ONE WEEK... FOR ASSEMBLY!   IT'S TIME TO SEE THE 'NEW' FX!"),
+scroller(icommon, "     A NEW RASPBERRY PI COMPOFILLER BY MEHU, YAY! CLUTCHED TOGETHER IN ONE WEEK... FOR ASSEMBLY!   IT'S TIME TO SEE THE 'NEW' FX!"),
 mvp(icommon->pProjMat40) {
     shader.use();
     GLfloat color [4];
@@ -56,13 +56,5 @@ void PLogo::draw(GLuint ifb) {
     glClear(GL_DEPTH_BUFFER_BIT);
     glDisable(GL_DEPTH_TEST);
     scroller.draw();
-    /*glClear(GL_DEPTH_BUFFER_BIT);
-    if (common->t > tlast+(1.0f/common->BPS)) {
-        particles.push_back(new ParticleBurst(common, 0.0f, 0.0f, 0.0f, 6));
-        tlast=common->t;
-    }
-    for (int i=0; i<particles.size(); i++) {
-        particles[i]->draw();
-    }*/
     glEnable(GL_DEPTH_TEST);
 }

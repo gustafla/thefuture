@@ -39,6 +39,7 @@ class GfxScreenMovable {
         void setY(unsigned int y);
         void setYgl(float y);
         void setXYWH(unsigned int x, unsigned int y, unsigned int w, unsigned int h);
+        GfxShader* getShader();
     private:
         GfxTexture2D* i;
         unsigned short iCount;

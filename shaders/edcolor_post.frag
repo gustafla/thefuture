@@ -21,11 +21,12 @@ precision highp float;
 uniform vec2 iResolution;
 uniform float iGlobalTime;
 uniform sampler2D iChannel0;
+varying vec2 texpos;
 
 void main() {
     const float res = 0.6;
     const float pi = 3.14159265;
-    vec2 pos=gl_FragCoord.xy/iResolution.xy;
+    vec2 pos=texpos;
     vec2 oneoff = vec2(1.0)/iResolution.xy;
     float edcolor = 0.0;
     for (float i=0.0; i<2.0*pi; i+=res*pi) {

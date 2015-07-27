@@ -35,6 +35,8 @@ This file is part of Low Quality is the Future.
 
 #include "parts/logo.hpp"
 #include "parts/1.hpp"
+#include "parts/2.hpp"
+#include "parts/torus.hpp"
 /*
  * Demo player thread function
  */
@@ -45,7 +47,7 @@ void* playDemo(void* arg) {
     char** argv = args->argv;
     Config c(argc, argv);
     //Create a window
-    GfxEGLWindow window(&c, "Low Quality is the Future");
+    GfxEGLWindow window(&c, "The Future | Mehu | ASSEMBLY 2015");
     if(!window.createWindow(GFX_WINDOW_RGB))
         exit(2);
 
@@ -86,9 +88,11 @@ void* playDemo(void* arg) {
     bool doPP = false;
 
     //demo parts
-    PLogo p0(&common);
-    P1    p1(&common);
-    Fade*      fade;
+    PLogo  p0(&common);
+    P1     p1(&common);
+    P2     p2(&common);
+    PTorus p3(&common);
+    Fade*  fade;
     
     //Start the music player thread
     WavPlayer* music = NULL;
@@ -165,6 +169,48 @@ void* playDemo(void* arg) {
             case 2: //NOT SURE YET
                 doPP = true;
                 p1.draw(pp.getFramebufferHandle());
+				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
+                    fade = new Fade(&common, PART_TIMES[part+1], FADE_MIX);
+					part++;
+					tPartStart = t-tLoopStart;
+				}
+                break;
+            case 3: //FADE
+                doPP = true;
+                p1.draw(fade->getPP(0));
+                p2.draw(fade->getPP(1));
+                pp.bindFramebuffer();
+                fade->draw();
+				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
+                    delete fade;
+					part++;
+					tPartStart = t-tLoopStart;
+				}
+                break;
+            case 4:
+                doPP = true;
+                p2.draw(pp.getFramebufferHandle());
+				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
+                    fade = new Fade(&common, PART_TIMES[part+1], FADE_MIX);
+					part++;
+					tPartStart = t-tLoopStart;
+				}
+                break;
+            case 5:
+                doPP = true;
+                p2.draw(fade->getPP(0));
+                p3.draw(fade->getPP(1));
+                pp.bindFramebuffer();
+                fade->draw();
+				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
+                    delete fade;
+					part++;
+					tPartStart = t-tLoopStart;
+				}
+                break;
+            case 6:
+                doPP = false;
+                p3.draw(0);
                 break;
 			default:
                 if (c.audio)

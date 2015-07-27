@@ -22,8 +22,6 @@ class PLogo {
         GfxModel* objMehu;
         MVP mvp;
         Scroller scroller;
-        float tlast;
-        std::vector<ParticleBurst*> particles;
 };
 
 #endif

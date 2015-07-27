@@ -28,7 +28,7 @@ This file is part of Low Quality is the Future.
 
 class GfxPostProcessor {
     public:
-        GfxPostProcessor(CommonData* icommon, std::string vs, uint32_t filter=GL_NEAREST, float c=1.0, uint32_t wrap=GL_CLAMP_TO_EDGE);
+        GfxPostProcessor(CommonData* icommon, std::string vs, uint32_t filter=GL_NEAREST, float c=1.0, GLuint wrap=GL_CLAMP_TO_EDGE, GLuint format=GL_RGB);
         ~GfxPostProcessor();
         void draw();
         void bindFramebuffer();

@@ -16,19 +16,13 @@ This file is part of Low Quality is the Future.
     along with Low Quality is the Future, see COPYING. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "common.hpp"
-#include "gfx_mat.hpp"
+precision highp float;
 
-CommonData::CommonData(unsigned int x, unsigned int y):
-t(0.0f),
-deltat(0.0f),
-beatHalfSine(0.0f) {
-    halfYRes[0] = res[0] = x;
-    res[1] = y;
-    halfYRes[1] = y/2;
-    models = new GfxModelHandler;
-    getPProjMat(pProjMat40, 40.0, ((float)x)/((float)y), 0.1, 1000.0);
-    getPProjMat(pProjMat80, 80.0, ((float)x)/((float)y), 0.1, 1000.0);
-    BPS = 128.0/60.0;
-    BPS2 = 130.0/60.0;
+varying vec2 texpos;
+uniform sampler2D iChannel0;
+uniform float iAlpha;
+
+void main() {
+    vec4 t = texture2D(iChannel0, texpos);
+    gl_FragColor = vec4(t.rgb, iAlpha*t.a);
 }

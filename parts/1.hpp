@@ -9,7 +9,8 @@
 #include "mvp.hpp"
 #include "effects/scroller.hpp"
 
-#define N_CUBES 300
+//#define N_CUBES 300
+#define N_CUBES 200
 
 class P1 {
     public:
@@ -35,6 +36,9 @@ class P1 {
 
         float tlast;
         bool lines[N_CUBES-1];
+
+        GfxTexture2D skybox;
+        GfxShader shader2;
 };
 
 #endif

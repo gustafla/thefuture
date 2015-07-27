@@ -20,7 +20,7 @@ This file is part of Low Quality is the Future.
 #include "util.hpp"
 #include <string>
 
-GfxPostProcessor::GfxPostProcessor(CommonData* icommon, std::string fs, uint32_t filter, float c, uint32_t wrap):
+GfxPostProcessor::GfxPostProcessor(CommonData* icommon, std::string fs, uint32_t filter, float c, GLuint wrap, GLuint format):
 common(icommon),
 texCount(0),
 shaderProgram("shaders/simple_texpos.vert", fs) {
@@ -40,7 +40,7 @@ shaderProgram("shaders/simple_texpos.vert", fs) {
 
     check();
 
-    ownTexture = new GfxTexture2D(NULL, res[0], res[1], GL_RGB, filter, wrap);
+    ownTexture = new GfxTexture2D(NULL, res[0], res[1], format, filter, wrap);
     glUniform1i(shaderProgram.getUfmHandle("iChannel0"), 0);
 
     glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, ownTexture->getHandle(), 0);

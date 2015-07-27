@@ -22,6 +22,10 @@ This file is part of Low Quality is the Future.
 float const PART_TIMES[] = {
     30.0f,
     1.2f,
-    20.0f
+    28.1f,
+    1.0,
+    14.0f,
+    1.0f,
+    1000.0f
 };
 int const PARTS = sizeof(PART_TIMES)/sizeof(PART_TIMES[0]);
