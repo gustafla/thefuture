@@ -36,7 +36,7 @@ float torus(vec3 pos, vec2 t) {
 }
 
 float scene(vec3 pos) {
-    return torus(getXRotMat(iGlobalTime*1.4)*getZRotMat(iGlobalTime*1.6)*pos, vec2(2.0, 0.8));
+    return torus(getXRotMat(iGlobalTime*1.8)*getYRotMat(iGlobalTime*0.2)*getZRotMat(iGlobalTime*0.1)*pos, vec2(2.0, 0.8));
 }
 
 vec3 march(vec3 origin, vec3 direction) {
@@ -60,7 +60,7 @@ float render(vec2 screenPos) {
     vec3 pos = march(cam, dir);
     vec3 normal = normalize(grad(pos));
     float diffuse = max(dot(-normal, normalize(pos-cam)), 0.0);
-    return (1.0/length(pos-cam))*diffuse*(pow(diffuse, 20.0)+1.0);
+    return (1.0/length(pos-cam))*diffuse*(pow(diffuse, 11.0)*1.2+1.0);
 }
 
 void main() {

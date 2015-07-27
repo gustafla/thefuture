@@ -24,7 +24,7 @@ uniform sampler2D iChannel0;
 varying vec2 texpos;
 
 void main() {
-    const float res = 0.6;
+    const float res = 0.4;
     const float pi = 3.14159265;
     vec2 pos=texpos;
     vec2 oneoff = vec2(1.0)/iResolution.xy;

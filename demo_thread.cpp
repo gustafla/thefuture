@@ -209,8 +209,8 @@ void* playDemo(void* arg) {
 				}
                 break;
             case 6:
-                doPP = false;
-                p3.draw(0);
+                doPP = true;
+                p3.draw(pp.getFramebufferHandle());
                 break;
 			default:
                 if (c.audio)
