@@ -1,3 +1,7 @@
+#ifdef GL_ES
+precision highp float;
+#endif
+
 varying vec2 texpos;
 uniform float iGlobalTime;
 uniform sampler2D iChannel0;

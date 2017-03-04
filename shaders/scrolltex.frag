@@ -18,10 +18,9 @@ This file is part of Low Quality is the Future.
 
 #version 100
 
+#ifdef GL_ES
 precision highp float;
-/*precision highp vec2;
-precision highp vec3;
-precision highp vec4;*/
+#endif
 
 uniform vec2 iResolution;
 uniform float iGlobalTime;

@@ -16,7 +16,9 @@ This file is part of Low Quality is the Future.
     along with Low Quality is the Future, see COPYING. If not, see <http://www.gnu.org/licenses/>.
 */
 
-precision mediump float;
+#ifdef GL_ES
+precision highp float;
+#endif
 
 uniform float iGlobalTime;
 uniform sampler2D iChannel0;

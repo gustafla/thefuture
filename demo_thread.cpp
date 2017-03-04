@@ -32,11 +32,13 @@ This file is part of Low Quality is the Future.
 
 #include "fade.hpp"
 #include "demo_timing.hpp"
+#include "util.hpp"
 
 #include "parts/logo.hpp"
 #include "parts/1.hpp"
 #include "parts/2.hpp"
 #include "parts/torus.hpp"
+#include "parts/tunnel.hpp"
 /*
  * Demo player thread function
  */
@@ -88,11 +90,12 @@ void* playDemo(void* arg) {
     bool doPP = false;
 
     //demo parts
-    PLogo  p0(&common);
-    P1     p1(&common);
-    P2     p2(&common);
-    PTorus p3(&common);
-    Fade*  fade;
+    PLogo   p0(&common);
+    P1      p1(&common);
+    P2      p2(&common);
+    PTunnel p3(&common);
+    PTorus  p4(&common);
+    Fade*   fade;
     
     //Start the music player thread
     WavPlayer* music = NULL;
@@ -123,6 +126,14 @@ void* playDemo(void* arg) {
 
     gettimeofday(&tTmp, &tz);
     gettimeofday(&startT, &tz);
+
+    float endTStart = -1.0f;
+    float t2start = -1.0f;
+    GfxScreenMovable gree1(&common, "shaders/showtex_var_a.frag", 0, 0, common.res[0], common.res[1], "graphics/gree1.tga");
+    GfxScreenMovable gree2(&common, "shaders/showtex_var_a.frag", 0, 0, common.res[0], common.res[1], "graphics/gree2.tga");
+    GfxScreenMovable gree3(&common, "shaders/showtex_var_a.frag", 0, 0, common.res[0], common.res[1], "graphics/gree3.tga");
+    GfxScreenMovable gree4(&common, "shaders/showtex_var_a.frag", 0, 0, common.res[0], common.res[1], "graphics/gree4.tga");
+    GfxScreenMovable endT(&common, "shaders/showtex_var_a.frag", 0, 0, common.res[0], common.res[1], "graphics/end.tga");
 
     for (;;)
     {
@@ -188,6 +199,8 @@ void* playDemo(void* arg) {
 				}
                 break;
             case 4:
+                if (t2start<-0.5f)
+                    t2start = common.t;
                 doPP = true;
                 p2.draw(pp.getFramebufferHandle());
 				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
@@ -211,6 +224,29 @@ void* playDemo(void* arg) {
             case 6:
                 doPP = true;
                 p3.draw(pp.getFramebufferHandle());
+				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
+                    fade = new Fade(&common, PART_TIMES[part+1], FADE_MIX);
+					part++;
+					tPartStart = t-tLoopStart;
+				}
+                break;
+            case 7:
+                if (endTStart < -0.5f)
+                    endTStart = common.t;
+                doPP = true;
+                p3.draw(fade->getPP(0));
+                p4.draw(fade->getPP(1));
+                pp.bindFramebuffer();
+                fade->draw();
+				if (t-tLoopStart > tPartStart+PART_TIMES[part]) {
+                    delete fade;
+					part++;
+					tPartStart = t-tLoopStart;
+				}
+                break;
+            case 8:
+                doPP = true;
+                p4.draw(pp.getFramebufferHandle());
                 break;
 			default:
                 if (c.audio)
@@ -229,6 +265,35 @@ void* playDemo(void* arg) {
             gfxBindFB0();
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
             pp.draw();
+            glClear(GL_DEPTH_BUFFER_BIT);
+            float tt = t-t2start;
+            if (t2start>-0.5f) {
+                if (tt > 8.0f) {
+                    gree4.getShader()->use();
+                    glUniform1f(gree4.getShader()->getUfmHandle("iAlpha"), 9.8f*0.8f-tt*0.8f);
+                    gree4.draw();
+                }
+                else if (tt > 6.0f) {
+                    gree3.getShader()->use();
+                    glUniform1f(gree3.getShader()->getUfmHandle("iAlpha"), 7.8f*0.8f-tt*0.8f);
+                    gree3.draw();
+                }
+                else if (tt > 4.0f) {
+                    gree2.getShader()->use();
+                    glUniform1f(gree2.getShader()->getUfmHandle("iAlpha"), 5.8f*0.8f-tt*0.8f);
+                    gree2.draw();
+                }
+                else if (tt > 2.0f) {
+                    gree1.getShader()->use();
+                    glUniform1f(gree1.getShader()->getUfmHandle("iAlpha"), 3.8f*0.8f-tt*0.8f);
+                    gree1.draw();
+                }
+            }
+            if (endTStart > -0.5f) {
+                endT.getShader()->use();
+                glUniform1f(endT.getShader()->getUfmHandle("iAlpha"), min(common.t-endTStart, 0.7));
+                endT.draw();
+            }
         }
 
         window.swapBuffers();

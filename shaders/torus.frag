@@ -1,3 +1,7 @@
+#ifdef GL_ES
+precision highp float;
+#endif
+
 uniform vec2 iResolution;
 uniform float iGlobalTime;
 varying vec2 texpos;
@@ -60,7 +64,7 @@ float render(vec2 screenPos) {
     vec3 pos = march(cam, dir);
     vec3 normal = normalize(grad(pos));
     float diffuse = max(dot(-normal, normalize(pos-cam)), 0.0);
-    return (1.0/length(pos-cam))*diffuse*(pow(diffuse, 11.0)*1.2+1.0);
+    return (1.0/length(pos-cam))*diffuse*(pow(diffuse, 14.0)*1.2+1.0);
 }
 
 void main() {

@@ -16,7 +16,9 @@ This file is part of Low Quality is the Future.
     along with Low Quality is the Future, see COPYING. If not, see <http://www.gnu.org/licenses/>.
 */
 
+#ifdef GL_ES
 precision highp float;
+#endif
 
 void main() {
     gl_FragColor = vec4(0.9, 0.7, 0.0, 0.8);

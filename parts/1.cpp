@@ -57,7 +57,7 @@ void P1::draw(GLuint ifb) {
     mixer.bindFramebuffer();
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    float beat = clamp(clamp(t*10.0f-15.0f*10.0f, 0.0f, 1.0f) * 1.0-fmod((common->t-0.2f)*2.0f, (1/common->BPS)*2.0f), 0.0f, 1.0f);
+    float beat = clamp(clamp(t*10.0f-15.0f*10.0f, 0.0f, 1.0f) * 1.0-fmod((common->t)*2.0f, (1/common->BPS)*2.0f), 0.0f, 1.0f);
 
     GLfloat viewr[3];
     viewr[0] = sin(t*0.7f)*0.3f;
@@ -77,14 +77,19 @@ void P1::draw(GLuint ifb) {
     shader.use();
     GLfloat color[4];
     glDisable(GL_DEPTH_TEST);
+    bool red;
     for(int i=0; i<N_CUBES; i++) {
-        if (i != 0 && i < N_CUBES-1)
-            color[0] = 0.4f + ((lines[i-1]||lines[i]) ? 0.6f*beat : 0.0f);
-        else
-            color[0] = 0.4f;
-        color[1] = 0.4f;
-        color[2] = 0.5f;
-        color[3] = 0.2f;
+        if (i != 0 && i < N_CUBES-1) {
+            color[0] = 0.66f + ((lines[i-1]||lines[i]) ? 0.66f*beat : 0.0f);
+            color[1] = 0.6f-((lines[i-1]||lines[i]) ? 0.3f*beat : 0.0f);
+            color[2] = 0.7f-((lines[i-1]||lines[i]) ? 0.4f*beat : 0.0f);
+        }
+        else {
+            color[0] = 0.66f;
+            color[1] = 0.6f;
+            color[2] = 0.7f;
+        }
+        color[3] = 0.3f;
         glUniform4fv(shader.getUfmHandle("iColor"), 1, color);
         mvp.setModel(cube[i*6], cube[i*6+1], cube[i*6+2], cube[i*6+3], cube[i*6+4], cube[i*6+5], 1.7);
         mvp.setView(-100.0f+t*6.0f, 0.0f, sin(t*0.7f)*20.0f, viewr[0], viewr[1], viewr[2]);
@@ -93,14 +98,14 @@ void P1::draw(GLuint ifb) {
         objCube->draw(&shader);
     }
 
-    if (common->t-0.2f > tlast+(1.0/common->BPS)) {
+    if ((common->t > tlast+((1.0/common->BPS)/2.0f)) && beat>0.8f) {
         for (int i=0; i<N_CUBES-1; i++) {
             if (rand()%60 < 6)
                 lines[i]=true;
             else
                 lines[i]=false;
         }
-        tlast=common->t-0.2f;
+        tlast=common->t;
     }
     color[0] = 1.0;
     color[1] = 0.0;

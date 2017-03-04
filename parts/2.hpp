@@ -28,10 +28,6 @@ class P2 {
         float tlast;
         float ts;
         GLfloat colorsbase[CUBES_W][CUBES_H][3];
-        GfxScreenMovable gree1;
-        GfxScreenMovable gree2;
-        GfxScreenMovable gree3;
-        GfxScreenMovable gree4;
 };
 
 #endif

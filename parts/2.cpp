@@ -6,10 +6,6 @@
 
 P2::P2(CommonData* icommon):
 common(icommon),
-gree1(icommon, "shaders/showtex_var_a.frag", 0, 0, icommon->res[0], icommon->res[1], "graphics/gree1.tga"),
-gree2(icommon, "shaders/showtex_var_a.frag", 0, 0, icommon->res[0], icommon->res[1], "graphics/gree2.tga"),
-gree3(icommon, "shaders/showtex_var_a.frag", 0, 0, icommon->res[0], icommon->res[1], "graphics/gree3.tga"),
-gree4(icommon, "shaders/showtex_var_a.frag", 0, 0, icommon->res[0], icommon->res[1], "graphics/gree4.tga"),
 tlast(-10.0f),
 ts(-1.0f),
 objCube(icommon->models->getModel("cube.obj")),
@@ -77,26 +73,4 @@ void P2::draw(GLuint ifb) {
     glBindFramebuffer(GL_FRAMEBUFFER, ifb);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     ed.draw();
-    glClear(GL_DEPTH_BUFFER_BIT);
-
-    if (t > 9.0f) {
-        gree4.getShader()->use();
-        glUniform1f(gree4.getShader()->getUfmHandle("iAlpha"), 10.8f*0.8f-t*0.8f);
-        gree4.draw();
-    }
-    else if (t > 7.0f) {
-        gree3.getShader()->use();
-        glUniform1f(gree3.getShader()->getUfmHandle("iAlpha"), 8.8f*0.8f-t*0.8f);
-        gree3.draw();
-    }
-    else if (t > 5.0f) {
-        gree2.getShader()->use();
-        glUniform1f(gree2.getShader()->getUfmHandle("iAlpha"), 6.8f*0.8f-t*0.8f);
-        gree2.draw();
-    }
-    else if (t > 3.0f) {
-        gree1.getShader()->use();
-        glUniform1f(gree1.getShader()->getUfmHandle("iAlpha"), 4.8f*0.8f-t*0.8f);
-        gree1.draw();
-    }
 }
